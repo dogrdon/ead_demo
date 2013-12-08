@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Tue, 28 May 2013 11:14:51 AM EDT
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms009336
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd649e2">
+   <eadheader id="mferd649e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms009336"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.mss/eadmss.ms009336</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>B. F. Wade Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Lloyd A. Dunlap</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm78044263" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm78044263</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Glenn R. Gardner, 
+		  <date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd649e41">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">B. F. Wade Papers 
+		  <unitdate label="Span Dates" type="inclusive" normal="1832/1886" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1832-1886</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1852/1869" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1852-1869)</unitdate> 
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS44263</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Wade, B. F (Benjamin
+			 Franklin), 1800-1878</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">3,500
+		  items</extent>
+		          <extent encodinganalog="300">18 containers</extent>
+		          <extent encodinganalog="300">4 linear feet</extent>
+		          <extent encodinganalog="300">11 microfilm reels</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Lawyer, United States
+		  senator from Ohio, and Republican Party leader. Chiefly political
+		  correspondence relating to Wade’s career in the Senate as well as personal
+		  letters concerning his law practice and business. Includes printed speeches,
+		  maps, family letters, business records, and other material.</abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd649e88" altrender=":::F005=^20091102103209.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd651e12">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Briggs%2C+James+A.%2C+-1889+Correspondence.^">Briggs, James A., -1889--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Chase%2C+Salmon+P.+%28Salmon+Portland%29%2C+1808-1873+Correspondence.^">Chase, Salmon P. (Salmon Portland), 1808-1873--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cox%2C+Jacob+D.+%28Jacob+Dolson%29%2C+1828-1900+Correspondence.^">Cox, Jacob D. (Jacob Dolson), 1828-1900--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Davis%2C+Henry+Winter%2C+1817-1865+Correspondence.^">Davis, Henry Winter, 1817-1865--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^De+Gurowski%2C+Adam+G.%2C+count%2C+1805-1866+Correspondence.^">De Gurowski, Adam G., count, 1805-1866--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dennison%2C+William%2C+1815-1882+Correspondence.^">Dennison, William, 1815-1882--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Forney%2C+John+W.+%28John+Wien%29%2C+1817-1881+Correspondence.^">Forney, John W. (John Wien), 1817-1881--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Garfield%2C+James+A.+%28James+Abram%29%2C+1831-1881+Correspondence.^">Garfield, James A. (James Abram), 1831-1881--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Geiger%2C+Joseph+H.+Correspondence.^">Geiger, Joseph H.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goodlow%2C+William+A.^">Goodlow, William A.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Johnson%2C+Andrew%2C+1808-1875+Impeachment.^">Johnson, Andrew, 1808-1875--Impeachment.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lincoln%2C+Abraham%2C+1809-1865+Correspondence.^">Lincoln, Abraham, 1809-1865--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Paine%2C+R.+F.+%28Robert+F.%29+Correspondence.^">Paine, R. F. (Robert F.)--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Piatt%2C+Donn%2C+1819-1891+Correspondence.^">Piatt, Donn, 1819-1891--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosecrans%2C+William+S.+%28William+Starke%29%2C+1819-1898+Correspondence.^">Rosecrans, William S. (William Starke), 1819-1898--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Seward%2C+William+Henry%2C+1801-1872+Correspondence.^">Seward, William Henry, 1801-1872--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Smith%2C+Green+Clay%2C+1826-1895+Correspondence.^">Smith, Green Clay, 1826-1895--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stanton%2C+Edwin+McMasters%2C+1814-1869+Correspondence.^">Stanton, Edwin McMasters, 1814-1869--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sumner%2C+Charles%2C+1811-1874+Correspondence.^">Sumner, Charles, 1811-1874--Correspondence.</persname>
+            <famname encodinganalog="600" role="subject" source="lcnaf"
+                     altrender=":::PWEBRECON=^Wade+family.^">Wade family.</famname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wade%2C+B.+F.+%28Benjamin+Franklin%29%2C+1800-1878.^">Wade, B. F. (Benjamin Franklin), 1800-1878.</persname>
+         </controlaccess>
+         <controlaccess id="mferd651e84">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Republican+Party+%28U.S.+%3A+1854-+%29^">Republican Party (U.S. : 1854- )</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Congress.+Joint+Committee+on+the+Conduct+of+the+War.^">United States. <subarea encodinganalog="610$b">Congress.</subarea> 
+               <subarea encodinganalog="610$b">Joint Committee on the Conduct of the War.</subarea>
+            </corpname>
+         </controlaccess>
+         <controlaccess id="mferd651e102">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^African+Americans+Suffrage.^">African Americans--Suffrage.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Elections+United+States+1860.^">Elections--United States--1860.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Elections+United+States+1864.^">Elections--United States--1864.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Elections+United+States+1868.^">Elections--United States--1868.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Impeachments.^">Impeachments.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Practice+of+law+Ohio.^">Practice of law--Ohio.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Reconstruction+%28U.S.+history%2C+1865-1877%29^">Reconstruction (U.S. history, 1865-1877)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Secession+Southern+States.^">Secession--Southern States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Slaves+Emancipation+United+States.^">Slaves--Emancipation--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd651e137">
+            <head>Places</head>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Ohio+Commerce.^">Ohio--Commerce.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Ohio+Politics+and+government.^">Ohio--Politics and government.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^United+States+History+Civil+War%2C+1861-1865.^">United States--History--Civil War, 1861-1865.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^United+States+Politics+and+government+1849-1877.^">United States--Politics and government--1849-1877.</geogname>
+         </controlaccess>
+         <controlaccess id="mferd651e155">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Lawyers.^">Lawyers.</occupation>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Politicians.^">Politicians.</occupation>
+            <occupation encodinganalog="656" source="itoamc"
+                        altrender=":::PWEBRECON=^Senators%2C+U.S.+Congress+Ohio.^">Senators, U.S. Congress--Ohio.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd649e194" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd649e197" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The papers of B. F. Wade, lawyer, United States senator from Ohio,
+		  and Republican Party leader, were given to the Library of Congress by Clara
+		  Wade Crosby, John Parsons Wade, and B. F. Wade in 1937.</p>
+         </acqinfo>
+         <processinfo id="mferd649e202" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The papers of B. F. Wade were arranged and described in 1968. The
+		  finding aid was revised in 2009.</p>
+         </processinfo>
+         <userestrict id="mferd649e207" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the unpublished writings of B. F. Wade is
+		  governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd649e212" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The papers of B. F. Wade are open to research. Researchers are advised
+		  to contact the Manuscript Reading Room prior to visiting. Many collections are
+		  stored off-site and advance notice is needed to retrieve these items for
+		  research use.</p>
+         </accessrestrict>
+         <altformavail id="mferd649e217" encodinganalog="530">
+            <head>Microfilm</head>
+            <p>A microfilm edition of these papers is available on eleven reels.
+		  Consult reference staff in the Manuscript Division concerning availability for
+		  purchase or interlibrary loan. To promote preservation of the originals,
+		  researchers are required to consult the microfilm edition.</p>
+         </altformavail>
+         <prefercite id="mferd649e222" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, B. F. Wade Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd649e227" encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1800. Oct. 27</date>
+               <event>Born, Feeding Hills, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1821</date>
+               <event>Moved to Andover, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1827</date>
+               <event>Admitted to Ohio bar</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1827-1837</date>
+               <event>Practicing lawyer, Jefferson, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1835-1837</date>
+               <event>Prosecuting attorney, Ashtabula County, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1837</date>
+               <event>Elected to Ohio state senate</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1841</date>
+               <event>Married Caroline M. Rosekrans</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1847</date>
+               <event>Appointed judge, Third Judicial Circuit</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1851-1869</date>
+               <event>United States senator</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1852</date>
+               <event>Supported repeal of Fugitive Slave Law</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1859</date>
+               <event>Supported homestead legislation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1860</date>
+               <event>Voted against Crittenden Compromise</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1861-1865</date>
+               <event>Chairman, Joint Committee on the Conduct of the War</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1864</date>
+               <eventgrp>
+                  <event>Introduced Wade-Davis bill vetoed by Abraham Lincoln</event>
+                  <event>Issued Wade-Davis Manifesto criticizing Lincoln</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1865</date>
+               <event>Introduced bill for enfranchisement of Negroes in the District
+				of Columbia</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1867</date>
+               <event>Elected president <emph render="italic">pro tempore</emph> of
+				Senate</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1868</date>
+               <event>Failed of re-election to Senate</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1869</date>
+               <eventgrp>
+                  <event>Resumed law practice; general counsel Northern Pacific
+				  Railroad</event>
+                  <event>Member, Board of Directors, Union Pacific Railroad</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1871</date>
+               <event>Member, Santo Domingo Commission</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1878, Mar. 2</date>
+               <event>Died, Jefferson, Ohio</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd649e346" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Benjamin Franklin Wade (1800-1878) span the years
+		  1832-1886, but the bulk falls within the period of his services as United
+		  States senator, 1852-1869. The collection is arranged in two series: 
+		  <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                 target="gencorr">General
+			 Correspondence</ref> and 
+		  <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                 target="misc">Miscellany</ref>
+		  series.</p>
+         <p>A few letters concern Wade’s law practice and business affairs, but
+		  most are political in nature. Many are requests for help in obtaining civil or
+		  military appointments. Subjects include Ohio and national politics, including
+		  the elections of 1860, 1864, and 1868, secession, the Civil War, the Joint
+		  Committee on the Conduct of the War, emancipation, Reconstruction, Negro
+		  suffrage, and the impeachment of Andrew Johnson.</p>
+         <p>Among the correspondents are James A. Briggs, Salmon P. Chase, Jacob
+		  D. Cox, Henry Winter Davis, Count Adam G. De Gurowski, William Dennison, John
+		  W. Forney, James A. Garfield, Joseph H. Geiger, William A. Goodlow, Abraham
+		  Lincoln, R. F. Paine, Donn Paitt, William S. Rosescrans, William Henry Seward,
+		  Green Clay Smith, Edwin McMasters Stanton, and Charles Sumner.</p>
+      </scopecontent>
+      <arrangement id="mferd649e361" encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in two series: </p>
+         <list>
+            <item> 
+			            <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                    target="gencorr">General
+				Correspondence, 1832-1886</ref>
+            </item>
+            <item> 
+			            <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                    target="misc">Miscellany,
+				1832-1881</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm78044263" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm78044263</extref>
+      </otherfindaid>
+      <dsc id="mferd649e375" type="combined">
+         <head>Container List</head>
+         <note>
+            <p>Available on microfilm. Shelf no. 14,109.</p>
+         </note>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Reel</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd649e389" level="series">
+            <did>
+               <container type="box">1-17</container>
+               <container type="reel">1-9</container>
+               <unittitle encodinganalog="245$a" id="gencorr">General
+				Correspondence, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1832-1886</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, letters received, and Wade’s letters to his
+				wife, Caroline M. Rosekrans.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 id="mferd649e405" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="reel">1</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1832, May 12-1852, Mar. 15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e415" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="reel">1</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1852, Mar. 19-1857, Nov. 23</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e425" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857, Dec. 8-1860, Nov. 7</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e435" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860, Nov. 9-1861, Feb. 24</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e445" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861, Feb. 24-1862, Jan. 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e455" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862, Jan. 5-Mar. 5</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e465" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <container type="reel">4</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862, Mar. 6-May 31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e475" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <container type="reel">4</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862, June 3-Dec. 29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e486" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="reel">5</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862, Dec. 31-1864, Jan. 17</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e496" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <container type="reel">5</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864, Jan. 18-1865, Feb. 21</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e506" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="reel">6</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865, Feb. 24-1866, Apr. 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e516" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="reel">6</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866, Apr. 16-1867, Feb. 18</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e526" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="reel">7</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867, Feb. 19-July 9</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e536" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="reel">7</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867, July 10-1868, Mar. 14</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e546" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <container type="reel">8</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868, Mar. 15-1869, Jan. 19</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e556" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <container type="reel">8</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869, Jan. 20-1873, Sept. 4</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e566" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <container type="reel">9</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1874, Mar. 13-1886 Jan. 18, and
+					 undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd649e576" level="series">
+            <did>
+               <container type="box">18</container>
+               <container type="reel">10-11</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1832-1881</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Miscellaneous material includes routine requests for government
+				documents; printed speeches; letters of his son, James F. Wade, to his parents;
+				maps; business records; and printed matter.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged by document type.</p>
+            </arrangement>
+            <c02 id="mferd649e592" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <container type="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">Letters of James F. Wade (son) to
+				  his parents, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856-1881</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e602" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <container type="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">Requests for government
+				  documents, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1859-1869</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(5
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd649e615" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <container type="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">Speeches by Wade, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856-1862</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e625" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <container type="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">Maps, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1860-circa 1870</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e635" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <container type="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">Business records, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1833-1853</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd649e645" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <container type="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856-1870 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

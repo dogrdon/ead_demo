@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Tue, 28 May 2013 11:16:09 AM EDT
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms010055
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd1657e2">
+   <eadheader id="mferd1657e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms010055"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.mss/eadmss.ms010055</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Sylvanus Cadwallader Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm79014712" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm79014712</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Glenn R. Gardner, 
+		  <date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd1657e41">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Sylvanus Cadwallader
+		  Papers 
+		  <unitdate label="Span Dates" type="inclusive" normal="1818/1904" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1818-1904</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1862/1898" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1862-1898)</unitdate> 
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS14712</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Cadwallader, Sylvanus, b.
+			 1825 or 6</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">250 items</extent>
+		          <extent encodinganalog="300">1 container</extent>
+		          <extent encodinganalog="300">.4 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Journalist and public
+		  official. Correspondence, writings, and newspaper articles, and other papers
+		  relating primarily to Cadwallader’s activities as a journalist reporting on
+		  the operations of the Union Army and Ulysses S. Grant during the Civil
+		  War.</abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd1657e85" altrender=":::F005=^20100205104104.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd1659e12">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Babcock%2C+Orville+Elias%2C+1835-1884+Correspondence.^">Babcock, Orville Elias, 1835-1884--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Badeau%2C+Adam%2C+1831-1895+Correspondence.^">Badeau, Adam, 1831-1895--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bennett%2C+James+Gordon%2C+1795-1872+Correspondence.^">Bennett, James Gordon, 1795-1872--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Boudinot%2C+Elias%2C+1740-1821+Correspondence.^">Boudinot, Elias, 1740-1821--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bower%2C+Theodore+S.+Correspondence.^">Bower, Theodore S.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Brady%2C+John+A.^">Brady, John A.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Butler%2C+Benjamin+F.+%28Benjamin+Franklin%29%2C+1795-1858+Correspondence.^">Butler, Benjamin F. (Benjamin Franklin), 1795-1858--Correspondence.</persname>
+            <famname encodinganalog="600" role="subject" source="lcnaf"
+                     altrender=":::PWEBRECON=^Cadwalader+family.^">Cadwalader family.</famname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cadwallader%2C+Mary+Isabella+Paul.^">Cadwallader, Mary Isabella Paul.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cadwallader%2C+Sylvanus%2C+1825+or+1826-^">Cadwallader, Sylvanus, 1825 or 1826- </persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Carson%2C+Samuel+Price%2C+1798-1838+Correspondence.^">Carson, Samuel Price, 1798-1838--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Chandler%2C+William+E.+%28William+Eaton%29%2C+1835-1917+Correspondence.^">Chandler, William E. (William Eaton), 1835-1917--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Clay%2C+Henry%2C+1777-1852+Correspondence.^">Clay, Henry, 1777-1852--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Curtis%2C+George+William%2C+1824-1892+Correspondence.^">Curtis, George William, 1824-1892--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dana%2C+Charles+A.+%28Charles+Anderson%29%2C+1819-1897+Correspondence.^">Dana, Charles A. (Charles Anderson), 1819-1897--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dent%2C+Frederick+T.+%28Frederick+Tracy%29%2C+1820-1892+Correspondence.^">Dent, Frederick T. (Frederick Tracy), 1820-1892--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Garrison%2C+William+Lloyd%2C+1805-1879+Correspondence.^">Garrison, William Lloyd, 1805-1879--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grant%2C+Frederick+Dent%2C+1850-1912+Correspondence.^">Grant, Frederick Dent, 1850-1912--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grant%2C+Ulysses+S.+%28Ulysses+Simpson%29%2C+1822-1885+Correspondence.^">Grant, Ulysses S. (Ulysses Simpson), 1822-1885--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grant%2C+Ulysses+S.+%28Ulysses+Simpson%29%2C+1822-1885.^">Grant, Ulysses S. (Ulysses Simpson), 1822-1885.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hudson%2C+Frederic%2C+1819-1875+Correspondence.^">Hudson, Frederic, 1819-1875--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Macon%2C+Nathaniel%2C+1757-1837+Correspondence.^">Macon, Nathaniel, 1757-1837--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^McCullagh%2C+Joseph+B.+%28Joseph+Burbridge%29%2C+1842-1896+Correspondence.^">McCullagh, Joseph B. (Joseph Burbridge), 1842-1896--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Meade%2C+George+Gordon%2C+1815-1872+Correspondence.^">Meade, George Gordon, 1815-1872--Correspondence.</persname>
+            <famname encodinganalog="600" role="subject" source="lcnaf"
+                     altrender=":::PWEBRECON=^Paul+family.^">Paul family.</famname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pendleton%2C+George+H.+%28George+Hunt%29%2C+1825-1889+Correspondence.^">Pendleton, George H. (George Hunt), 1825-1889--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Porter%2C+Horace%2C+1837-1921+Correspondence.^">Porter, Horace, 1837-1921--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rawlins%2C+John+A.+%28John+Aaron%29%2C+1831-1869.^">Rawlins, John A. (John Aaron), 1831-1869.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Richie%2C+Thomas+Correspondence.^">Richie, Thomas--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Roane%2C+Spencer%2C+1762-1822+Correspondence.^">Roane, Spencer, 1762-1822--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rublee%2C+Horace%2C+1829-1896+Correspondence.^">Rublee, Horace, 1829-1896--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sherman%2C+William+T.+%28William+Tecumseh%29%2C+1820-1891+Correspondence.^">Sherman, William T. (William Tecumseh), 1820-1891--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stanton%2C+Edwin+McMasters%2C+1814-1869+Correspondence.^">Stanton, Edwin McMasters, 1814-1869--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Townsend%2C+George+Alfred%2C+1841-1914+Correspondence.^">Townsend, George Alfred, 1841-1914--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wilson%2C+James+Harrison%2C+1837-1925+Correspondence.^">Wilson, James Harrison, 1837-1925--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd1659e129">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Freemasonry.^">Freemasonry.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Journalism+United+States.^">Journalism--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd1659e141">
+            <head>Places</head>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^United+States+History+Civil+War%2C+1861-1865+Journalists.^">United States--History--Civil War, 1861-1865--Journalists.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^United+States+History+Civil+War%2C+1861-1865.^">United States--History--Civil War, 1861-1865.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Wisconsin+Officials+and+employees.^">Wisconsin--Officials and employees.</geogname>
+         </controlaccess>
+         <controlaccess id="mferd1659e157">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Journalists.^">Journalists.</occupation>
+            <occupation encodinganalog="656" source="itoamc"
+                        altrender=":::PWEBRECON=^Public+officials.^">Public officials.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1657e190" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1657e193" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The papers of Sylvanus Cadwallader, journalist and public official,
+		  were purchased by the Library of Congress in 1965.</p>
+         </acqinfo>
+         <processinfo id="mferd1657e198" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The papers of Sylvanus Cadwallader were processed in 1966. The finding
+		  aid was revised in 2010. </p>
+         </processinfo>
+         <userestrict id="mferd1657e203" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the unpublished writings of Sylvanus
+		  Cadwallader is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd1657e208" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The papers of Sylvanus Cadwallader are open to research. Researchers
+		  are advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+         </accessrestrict>
+         <prefercite id="mferd1657e213" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Sylvanus Cadwallader Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd1657e218" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Sylvanus Cadwallader, born in Ohio in 1825 or 1826, attended school in
+		  Ross County, Ohio, and moved to Kenosha, Wisconsin, in the early 1850s, where
+		  he started a newspaper career before becoming co-publisher with his
+		  brother-in-law, George H. Paul, of the Milwaukee 
+		<title xlink:type="simple">Daily News</title>. As a journalist with Union forces after 1861,
+		he wrote for the 
+		<title xlink:type="simple">Chicago Times</title> and reported on General Ulysses S. Grant’s
+		advance on Richmond for the 
+		<title xlink:type="simple">New York Herald</title>, including the surrender in April 1865 of
+		General Robert E. Lee at Appomattox Court House. Reportedly an assistant
+		secretary of state of Wisconsin after the war, 1874-1878, he later moved to
+		Missouri and then to San Diego, California. His account of his war experience, 
+		<title xlink:type="simple">Three Years with Grant, as Reported by War Correspondent Sylvanus
+		  Cadwallader</title>, written in California in 1876, was first published in 1955
+		(New York, Alfred A. Knopf), edited and with an introduction and notes by
+		Benjamin P. Thomas. </p>
+      </bioghist>
+      <scopecontent id="mferd1657e235" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Sylvanus Cadwallader (born 1825 or 1826) consist
+		  primarily of correspondence and telegrams spanning the years 1818-1904, with
+		  the bulk of the material dating between 1862-1898. The correspondence is
+		  supplemented by newspaper clippings, military passes, printed material,
+		  invitations, and commissions. </p>
+         <p>Cadwallader, as a journalist during the Civil War years, was closely
+		  associated with General Ulysses S. Grant and his staff. He was with Grant
+		  during the Mississippi and Tennessee operations as a correspondent of the 
+		<title xlink:type="simple">Chicago Times</title>, and later, during the advance on Richmond,
+		Cadwallader accompanied Grant as a representative of the 
+		<title xlink:type="simple">New York Herald</title>. He was present at the surrender of
+		General Robert E. Lee at Appomattox Court House on April 9, 1865. A
+		contemporary drawing of the McLean house made by Cadwallader is in the
+		collection. Credited with being one of the most capable of the wartime
+		correspondents, Cadwallader received a letter from Grant on September 23, 1864,
+		congratulating him for his journalistic ability and his factual reporting. </p>
+         <p>After the war Cadwallader became a state official in Wisconsin, later
+		  moved to Missouri, and finally removed to California where he wrote of his
+		  wartime experiences. His reminiscences were edited by Benjamin P. Thomas and
+		  published under the title 
+		<title xlink:type="simple">Three Years with Grant</title>.</p>
+         <p>There are two types of correspondence in the collection, family and
+		  general. The family correspondence, spans the years 1849-1897, with the bulk of
+		  the letters dated in the 1860s. Included are letters to his wife, Mary Isabella
+		  Paul Cadwallader, his daughter, and close personal friends. General
+		  correspondence dates from 1862 to 1904, but relates principally to the 1880s
+		  and 1890s. Correspondents in this group include Orville Elias Babcock, Adam
+		  Badeau, Elias Boudinot, Theodore S. Bower, Benjamin F. Butler, William E.
+		  Chandler, Frederic T. Dent, William Lloyd Garrison, Frederick Dent Grant,
+		  Ulysses S. Grant, George Gordon Meade, George H. Pendleton, Horace Porter,
+		  Edwin McMasters Stanton, William T. Sherman, and James Harrison Wilson. Still
+		  other correspondents are newsman such as James Gordon Bennett, George William
+		  Curtis, Charles A. Dana, Frederic Hudson, Joseph B. McCullagh, Horace Rublee,
+		  and George Alfred Townsend. </p>
+         <p>Letters and telegrams from the Civil War period primarily concern
+		  Cadwallader's newspaper activities, his travels as a war correspondent, and the
+		  death of his daughter in Wisconsin. There is also a file of telegrams for the
+		  period September-October 1864, relating to Cadwallader's attempt to secure a
+		  substitute and thereby prevent being drafted into the army.</p>
+         <p>Letters from 1880s and 1890s concern the career of General John A.
+		  Rawlins, General Grant's major aide-de-camp, and the whereabouts of his
+		  personal papers. Most of these letters are from James Harrison Wilson.</p>
+         <p>Also in the collection are files on Cadwallader's masonic activities,
+		  1849-1890; stock certificates, 1865-1867; appointments to office in Wisconsin
+		  1859-1863; military passes 1862-1865; and invitations, cards, and newspaper
+		  clippings.</p>
+         <p>Papers that may have been collected by Cadwallader include an 1833
+		  letter from Nathaniel Macon to Samuel Price Carson and two letters from Spencer
+		  Roane, one to Henry Clay, 1820, the other to Thomas Richie, undated.</p>
+      </scopecontent>
+      <arrangement id="mferd1657e263" encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by type of material.</p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm79014712" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm79014712</extref>
+      </otherfindaid>
+      <dsc id="mferd1657e268" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd1657e277" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Appointments, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1859-1883</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e285" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Appomattox Courthouse, Va., sketch
+				and description, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865-1866</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e293" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Brody, John, portrait, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e301" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence </unittitle>
+            </did>
+            <c02 id="mferd1657e307" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Family, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1849-1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1657e315" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">General, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1904</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(3
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd1657e326" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Telegrams, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865-1866</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd1657e334" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Draft notice and substitute
+				certificate, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e342" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Free masons, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1849-1890</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e350" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Grant, Ulysses S., 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863-1864, undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e358" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Invitations, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864-1868, undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e366" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Memorabilia, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1818-1833, undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e375" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Military passes, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1865</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e383" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Newspaper clippings </unittitle>
+            </did>
+            <c02 id="mferd1657e389" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Cadwallader, Isabella, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1850-1870</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1657e397" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Cadwallader, Sylvanus, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1897</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1657e405" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856-1899</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd1657e413" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a"> 
+				              <title xlink:type="simple">New York Herald</title>, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e424" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Printed matter, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1870-1874</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1657e432" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Stock certificates, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865-1877</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

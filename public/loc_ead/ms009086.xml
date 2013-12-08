@@ -1,0 +1,3345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Tue, 28 May 2013 11:17:17 AM EDT
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms009086
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd2635e2">
+   <eadheader id="mferd2635e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms009086"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms009086</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Vladimir Vladimirovich Nabokov
+			 Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of
+			 Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by T. Michael Womack <lb/>
+			 Revised by Margaret McAleer with the assistance of Lena H. Wiley and Brian
+			 McGuire</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm79034082" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm79034082</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Manuscript Division,
+		  
+		  <date normal="2009" era="ce" calendar="gregorian">2009</date> 
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language> 
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-04" era="ce" calendar="gregorian">2010 April</date>
+            <item>Title, controlaccess updated</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21">
+      <did id="mferd2635e51">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Vladimir Vladimirovich
+		  Nabokov Papers 
+		  <unitdate label="Span Dates" type="inclusive" normal="1918/1974" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1918-1974</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1925/1965" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1925-1965)</unitdate> 
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS34082</unitid>
+         <origination label="Creator"> 
+		          <persname source="lcnaf" encodinganalog="100">Nabokov, Vladimir
+			 Vladimirovich, 1899-1977</persname> 
+         </origination>
+         <physdesc label="Extent"> 
+            <extent encodinganalog="300">7,000
+		  items</extent>
+		          <extent encodinganalog="300">22 containers plus 1 oversize</extent>
+		          <extent encodinganalog="300">8.4 linear feet</extent>
+		          <extent encodinganalog="300">13 microfilm reels</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language> and
+		<language langcode="rus" encodinganalog="041">Russian</language>, with
+		<language langcode="fre" encodinganalog="041">French</language> and
+		<language langcode="ger" encodinganalog="041">German</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname> 
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Poet, novelist,
+		  literary critic, lecturer, and translator. Correspondence and notes with
+		  holograph and typescript drafts, galley proofs, page proofs, and printed
+		  versions of biographies, book reviews, essays, interviews, memoirs, novellas,
+		  novels, plays, poems, short stories, and translations of works by others.
+		  </abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd2635e110" altrender=":::F005=^20090803151226.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd2637e12">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Aldanov%2C+Mark+Aleksandrovich%2C+1886-1957+Correspondence.^">Aldanov, Mark Aleksandrovich, 1886-1957--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^A%C4%ADkhenval%CA%B9d%2C+I%EF%B8%A0U%EF%B8%A1.+I.+%28I%EF%B8%A0U%EF%B8%A1li%C4%AD+Isaevich%29%2C+1872-1928+Correspondence.^">Aĭkhenvalʹd, I︠U︡. I. (I︠U︡liĭ Isaevich), 1872-1928--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Banks%2C+Nathan%2C+1868-+Correspondence.^">Banks, Nathan, 1868- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Baty%2C+Gaston+Correspondence.^">Baty, Gaston--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Berberova%2C+Nina+Nikolaevna+Correspondence.^">Berberova, Nina Nikolaevna--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Berdi%EF%B8%A0a%EF%B8%A1ev%2C+Nikola%C4%AD%2C+1874-1948+Correspondence.^">Berdi︠a︡ev, Nikolaĭ, 1874-1948--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bunin%2C+Ivan+Alekseevich%2C+1870-1953+Correspondence.^">Bunin, Ivan Alekseevich, 1870-1953--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jannelli%2C+Altagracia+de+Correspondence.^">Jannelli, Altagracia de--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Khodasevich%2C+V.+F.+%28Vladislav+Felit%EF%B8%A0s%EF%B8%A1ianovich%29%2C+1886-1939+Correspondence.^">Khodasevich, V. F. (Vladislav Felit︠s︡ianovich), 1886-1939--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lukash%2C+Ivan%2C+1892-1940+Correspondence.^">Lukash, Ivan, 1892-1940--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Maklakov%2C+V.+A.+%28Vasili%C4%AD+Alekseevich%29%2C+1870-1957+Correspondence.^">Maklakov, V. A. (Vasiliĭ Alekseevich), 1870-1957--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Michener%2C+Charles+Duncan%2C+1918-+Correspondence.^">Michener, Charles Duncan, 1918- --Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977%2C^">Nabokov, Vladimir Vladimirovich, 1899-1977, tr. Eugene Onegin, a novel in verse. 1964.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977%2C^">Nabokov, Vladimir Vladimirovich, 1899-1977, tr. Song of Igor's campaign; an epic of the twelfth century. 1960.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Bend sinister. 1947.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Conclusive evidence, a memoir. 1951.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Defense. 1930.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Despair. 1936.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Event. 1938.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Gift. 1952.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Glory. 1932.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Invitation to a beheading. 1938.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Lolita. 1955.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Lolita: a screenplay. 1961.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Mary. 1926.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Pale fire. 1962.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Pole. 1924.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Real life of Sebastian Knight. 1941.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Tragedii︠a︡ gospodina Morna</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nabokov%2C+Vladimir+Vladimirovich%2C+1899-1977.^">Nabokov, Vladimir Vladimirovich, 1899-1977. Waltz invention. 1938.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pertzoff%2C+Peter+Alexander+Correspondence.^">Pertzoff, Peter Alexander--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Priel%2C+Jarl+Correspondence.^">Priel, Jarl--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rapch%C3%AFnski%C3%AF%2C+Bor%C3%AFs%2C+1887-+Correspondence.^">Rapchïnskiï, Borïs, 1887- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rudnev%2C+V.+V.+Correspondence.^">Rudnev, V. V.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schakovskoy%2C+Zina%C3%AFda%2C+princesse%2C+1906-2001+Correspondence.^">Schakovskoy, Zinaïda, princesse, 1906-2001--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Struve%2C+Gleb+Correspondence.^">Struve, Gleb--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Zenzinov%2C+V.+%28Vladimir%29%2C+1880-1953+Correspondence.^">Zenzinov, V. (Vladimir), 1880-1953--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd2637e138">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Literature.^">Literature.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Motion+picture+plays.^">Motion picture plays.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Poetry.^">Poetry.</subject>
+         </controlaccess>
+         <controlaccess id="mferd2637e153">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="630" xlink:role="subject" source="lcnaf"
+                   altrender=":::PWEBRECON=^Novoe+russkoe+slovo.^">Novoe russkoe slovo.</title>
+            <title xlink:type="simple" encodinganalog="630" xlink:role="subject" source="lcnaf"
+                   altrender=":::PWEBRECON=^Petropolis.^">Petropolis.</title>
+            <title xlink:type="simple" encodinganalog="630" xlink:role="subject" source="lcnaf"
+                   altrender=":::PWEBRECON=^Poslednie+novosti.^">Poslednie novosti.</title>
+            <title xlink:type="simple" encodinganalog="630" xlink:role="subject" source="lcnaf"
+                   altrender=":::PWEBRECON=^Russki+zapiski.^">Russki zapiski.</title>
+            <title xlink:type="simple" encodinganalog="630" xlink:role="subject" source="lcnaf"
+                   altrender=":::PWEBRECON=^Sovremennye+zapiski.^">Sovremennye zapiski.</title>
+         </controlaccess>
+         <controlaccess id="mferd2637e176">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Authors.^">Authors.</occupation>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Critics.^">Critics.</occupation>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Lecturers.^">Lecturers.</occupation>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Translators.^">Translators.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd2635e231" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd2635e234" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The papers of Vladimir Vladimirovich Nabokov, poet, novelist,
+		  literary critic, lecturer, and translator, were donated to the Library of
+		  Congress by Nabokov from 1958 through 1965. Additions were acquired by purchase
+		  in 1971 and 1991 and by gifts from Peter Pertzoff in 1964 and Jay Wilson in
+		  1991.</p>
+         </acqinfo>
+         <processinfo id="mferd2635e239" encodinganalog="583">
+            <head>Processing History</head>
+            <p> The papers of Vladimir Vladimirovich Nabokov were arranged and
+		  described in 1969. They were reorganized in 2000 when additional material was
+		  integrated into the collection, with further processing and description
+		  completed in 2003. The collection was prepared for microfilming in 2007, and
+		  the finding aid was revised in 2009.</p>
+         </processinfo>
+         <userestrict id="mferd2635e244" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>Copyright in the unpublished writings of Vladimir Vladimirovich
+		  Nabokov in these papers has been dedicated to the public.</p>
+         </userestrict>
+         <accessrestrict id="mferd2635e249" encodinganalog="506">
+            <head>Access and Restrictions</head>
+            <p> The papers of Vladimir Vladimirovich Nabokov are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+         </accessrestrict>
+         <altformavail id="mferd2635e254" encodinganalog="530">
+            <head>Microfilm</head>
+            <p> A microfilm edition of these papers is available on thirteen reels.
+		  Consult reference staff in the Manuscript Division concerning availability for
+		  purchase or interlibrary loan. To promote preservation of the originals,
+		  researchers are required to consult the microfilm edition.</p>
+         </altformavail>
+         <prefercite id="mferd2635e259" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p> Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, Vladimir Vladimirovich Nabokov
+		  Papers, Manuscript Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd2635e264" encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1899, Apr. 22</date>
+               <event>Born, St. Petersburg, Russia</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919-1922</date>
+               <event>Resided in England following the Russian Revolution</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922</date>
+               <eventgrp>
+                  <event>B.A. in French and Russian literature, Trinity College,
+				  University of Cambridge, Cambridge, England</event>
+                  <event>Vladimir Dmitrievich Nabokov (father) assassinated </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922-1937</date>
+               <event>Maintained residence primarily in Berlin, Germany</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1925</date>
+               <event>Married Véra Evseyevna Slonim</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1926</date>
+               <event>Published 
+				<title xlink:type="simple">Mashenʹka</title> 
+				              <title xlink:type="simple">(Mary)</title>. Berlin: Slovo</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1928</date>
+               <event>Published 
+				<title xlink:type="simple">Korolʹ, dama, valet</title> 
+				              <title xlink:type="simple">(King, Queen, Knave)</title>. Berlin: Slovo</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1930</date>
+               <event>Published 
+				<title xlink:type="simple">Zashchita Luzhina</title> 
+				              <title xlink:type="simple">(The Defense</title>). Berlin: Slovo</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932</date>
+               <event>Published 
+				<title xlink:type="simple">Otchaianie</title> 
+				              <title xlink:type="simple">(Despair</title>). Berlin: Petropolis</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933</date>
+               <event>Published 
+				<title xlink:type="simple">Podvig</title> 
+				              <title xlink:type="simple">(Glory</title>). Paris: Sovremennyia zapiski</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1934</date>
+               <event>Dimitri Vladimirovich Nabokov (son) born</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937-1940</date>
+               <event>Maintained residence primarily in Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937</date>
+               <event>Published 
+				<title xlink:type="simple">Dar</title> 
+				              <title xlink:type="simple">(The Gift</title>) serially in 
+				<title xlink:type="simple">Sovremennye zapiski,</title> Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1938</date>
+               <eventgrp>
+                  <event>Published 
+				  <title xlink:type="simple">Sobytie</title> 
+				                 <title xlink:type="simple">(The Event</title>) serially in <emph render="italic">Russkie zapiski,</emph> Paris, France</event>
+                  <event>Published 
+				  <title xlink:type="simple">Izobretenie Valʹsa </title> 
+				                 <title xlink:type="simple">(The Waltz Invention</title>) serially in
+				  <emph render="italic">Russkie zapiski,</emph> Paris, France</event>
+                  <event>Published 
+				  <title xlink:type="simple">Priglashenie na kaznʹ</title> 
+				                 <title xlink:type="simple">(Invitation to a Beheading</title>). Paris: Dom
+				  Knigi</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1940</date>
+               <event>Emigrated to United States with wife, who was of Jewish
+				ancestry, and son to escape Nazi persecution</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941-1948</date>
+               <event>Lecturer in elementary Russian and Russian literature in
+				translation, Wellesley College, Wellesley, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941</date>
+               <event>Published 
+				<title xlink:type="simple">The Real Life of Sebastian Knight.</title> Norfolk, Conn.:
+				New Directions</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1944</date>
+               <event>Published 
+				<title xlink:type="simple">Nikolai Gogol.</title> Norfolk, Conn.: New
+				Directions</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1945</date>
+               <event>Granted United States citizenship</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1947</date>
+               <event>Published 
+				<title xlink:type="simple">Bend Sinister.</title> New York: H. Holt</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1948-1958</date>
+               <event>Professor of Russian and European literature, Cornell
+				University, Ithaca, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951</date>
+               <event>Published 
+				<title xlink:type="simple">Conclusive Evidence: A Memoir.</title> New York:
+				Harper</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1952</date>
+               <event>Published 
+				<title xlink:type="simple">Dar</title> 
+				              <title xlink:type="simple">(The Gift</title>). New York: Chekhova</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1955</date>
+               <event>Published 
+				<title xlink:type="simple">Lolita.</title> Paris: Olympia Press</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1957</date>
+               <event>Published 
+				<title xlink:type="simple">Pnin.</title> Garden City, N.Y.: Doubleday</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1958-1977</date>
+               <event>Maintained residence primarily in Montreux,
+				Switzerland</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1960</date>
+               <event>Published 
+				<title xlink:type="simple">The Song of Igor's Campaign.</title> New York: Vintage
+				Books</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1962</date>
+               <event>Published 
+				<title xlink:type="simple">Pale Fire.</title> New York: Putnam</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1964</date>
+               <event>Published 
+				<title xlink:type="simple">Eugene Onegin.</title> New York: Pantheon Books</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1970</date>
+               <event>Published 
+				<title xlink:type="simple">Speak, Memory: An Autobiography Revisited.</title> New York:
+				Capricorn Books</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1974</date>
+               <event>Published 
+				<title xlink:type="simple">Lolita: A Screenplay.</title> New York: McGraw-Hill</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1977, July 2</date>
+               <event>Died, Montreux, Switzerland</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd2635e545" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Vladimir Vladimirovich Nabokov (1899-1977) span the
+		  years from 1918 to 1974, with the bulk of the items concentrated in the period
+		  between 1925 and 1965. Focusing on Nabokov's work as a poet, novelist, literary
+		  critic, lecturer, and translator, the collection consists of the following
+		  series: 
+		  <ref xlink:type="simple" target="corr1">Correspondence</ref>, 
+		  <ref xlink:type="simple" target="writ1">Writings</ref>, 
+		  <ref xlink:type="simple" target="misc21">Miscellany</ref>, an 
+		  <ref xlink:type="simple" target="addi22">Addition</ref>, and 
+		  <ref xlink:type="simple" target="over">Oversize</ref> containing holograph and typescript
+		  drafts, galley proofs, page proofs, and printed versions of biographies in
+		  addition to book reviews, essays, interviews, memoirs, novellas, novels, plays,
+		  poems, short stories, translations of works by others, and related material.
+		  The bulk of the collection is written in Russian and English. In most
+		  instances, titles of Nabokov's works are based on English translations of
+		  Russian citations appearing in Michael Juliar's 
+		<title xlink:type="simple">Vladimir Nabokov: A Descriptive Bibliography.</title> There are
+		also small amounts of material in French and German. Additional Nabokov papers
+		are in the Henry W. and Albert A. Berg Collection of English and American
+		Literature at the New York Public Library. </p>
+         <p>The 
+		  <ref xlink:type="simple" target="corr1">Correspondence</ref> series is arranged as letters
+		  received and sent. Although small in quantity, it contains letters from
+		  prominent figures in Russian literature and culture including IU. I.
+		  Aikhenvalʹd , Mark Aleksandrovich Aldanov, Nina Nikolaevna Berberova, Nikolai
+		  Berdiaev, Ivan Alekseevich Bunin, Ivan Lukash, V. A. Maklakov, V. F.
+		  Khodasevich, Boris Rapchinskii, V. V. Rudnev, and V. Zenzinov. Various
+		  Russian-language emigré publishers and publications are also represented in
+		  the series, such as Petropolis, 
+		<title xlink:type="simple">Novoe russkoe slovo,</title> 
+		          <title xlink:type="simple">Poslednie novosti,</title> 
+		          <title xlink:type="simple">Russki zapiski,</title> and 
+		<title xlink:type="simple">Sovremennye zapiski.</title> Subjects include publication
+		deadlines, copyright issues, and author's fees, as well as Nabokov's interest
+		in butterflies. The letters of Gaston Baty and Jarl Priel discuss the
+		performance possibilities of Nabokov's play 
+		<title xlink:type="simple">Catastrophe,</title> the French translation of 
+		<title xlink:type="simple">Sobytie.</title> Other correspondents include Peter Pertzoff,
+		translator of works by Nabokov; Altagracia de Jannelli, Nabokov's literary
+		agent in the United States; and lepidopterists Nathan Banks and Charles Duncan
+		Michener. </p>
+         <p>The 
+		  <ref xlink:type="simple" target="writ1">Writings</ref> series constitutes the largest
+		  portion of the collection. The bulk of the series consists of material relating
+		  to works of nonfiction, translations of works by others, and novels and
+		  reflects both the Russian and English language periods of the author. It was as
+		  a writer in English following his move to the United States in 1940 that
+		  Nabokov began to achieve serious recognition as a novelist. His writings were
+		  banned in the Soviet Union until the 1970s. Nabokov's first of several
+		  book-length autobiographies, 
+		<title xlink:type="simple">Conclusive Evidence: A Memoir,</title> is documented in files by
+		that name. He regarded the process of translation as a serious literary
+		endeavor, frequently quoting Aleksandr Sergeevich Pushkin's phrase:
+		“Translators are the post horses of enlightenment.” While in America,
+		Nabokov began to translate many of his earlier writings into English and, at
+		times, made extensive revisions to the original text. Such is the case with 
+		<title xlink:type="simple">Drugie berega,</title> the Russian-language edition of 
+		<title xlink:type="simple">Conclusive Evidence.</title> Files related to Nabokov's English
+		translation of Pushkin's novel in verse, 
+		<title xlink:type="simple">Eugene Onegin,</title> include material in which Nabokov reflected
+		upon the translation process. The file also includes copious explanatory notes,
+		extensive commentaries positioning the narrative within the context of European
+		society during Pushkin's time, comments on the work's significance in Russian
+		literature, remarks upon previous translations by others, and two lengthy
+		appendices and an index. Additional material relating to 
+		<title xlink:type="simple">Eugene Onegin</title> is present in the Bollingen Foundation
+		Records in the Manuscript Division. The series also contains files on Nabokov's
+		translation of the anonymous Russian epic, 
+		<title xlink:type="simple">The Song of Igor's Campaign.</title> 
+         </p>
+         <p>Nabokov's considerable output of novels is documented in the 
+		  <ref xlink:type="simple" target="writ1">Writings</ref> series. Titles representing his
+		  Russian period include 
+		<title xlink:type="simple">Dar</title> ( 
+		<title xlink:type="simple">The Gift</title>), 
+		<title xlink:type="simple">Mashenʹka </title> ( 
+		<title xlink:type="simple">Mary</title>), 
+		<title xlink:type="simple">Otchaianie</title> ( 
+		<title xlink:type="simple">Despair</title>), 
+		<title xlink:type="simple">Podvig</title> ( 
+		<title xlink:type="simple">Glory</title>), 
+		<title xlink:type="simple">Priglashenie na kaznʹ </title> ( 
+		<title xlink:type="simple">Invitation to a Beheading</title>), and 
+		<title xlink:type="simple">Zashchita Luzhina</title> ( 
+		<title xlink:type="simple">The Defense</title>). Those representing his American period
+		include 
+		<title xlink:type="simple">Bend Sinister, Lolita, Pale Fire,</title> and 
+		<title xlink:type="simple">The Real Life of Sebastian Knight.</title> The Writings series
+		also contains material relating to a number of plays written in Russian by
+		Nabokov during his early years. These include 
+		<title xlink:type="simple">Izobretenie Valʹsa </title> ( 
+		<title xlink:type="simple">The Waltz Invention</title>), 
+		<title xlink:type="simple">Polius</title> ( 
+		<title xlink:type="simple">The Pole</title>), 
+		<title xlink:type="simple">Sobytie</title> ( 
+		<title xlink:type="simple">The Event</title>), and an unpublished work, “Tragediia
+		Gospodina Morna” (“The Tragedy of Mr. Morn”). A sizeable amount of
+		material documents the author's film adaptation of his novel 
+		<title xlink:type="simple">Lolita</title> entitled 
+		<title xlink:type="simple">Lolita: A Screenplay.</title> 
+         </p>
+         <p>Holograph and typescript drafts of numerous poems written by Nabokov
+		  throughout his career are in both Russian and English. Representative titles
+		  include “Bezumets” (“The Madman”), “Chto za nochʹ s pamiatʹiu
+		  sluchilosʹ?” (“What Happened Overnight to Memory?”), “K Rossii”
+		  (“To Russia”), “Probuzhdenie” (“The Awakening”), “Rasstrel”
+		  (“The Execution”), “Smertʹ” (“Death”), “Snovidenʹe” (“A
+		  Vision in a Dream”), and “Vesna” (“Spring”). The poetry section also
+		  contains examples of Nabokov's translations of poems written by others,
+		  including two in French, “Le bateau ivre” by Arthur Rimbaud and the
+		  anonymous “La bonne Lorraine” translated as “Pʹianyi korablʹ”and
+		  “La bonne Lorraine,” respectively. One in Russian, “Obezʹiana” by V.
+		  F. Khodasevich, was translated into English as “The Monkey.” Short stories
+		  and novellas represented in the series include “The Double Monster,”
+		  “Govoriat po russki” (“They Speak Russian”), “Mademoiselle O,”
+		  “Ozero, obkalo, bashnia” (Cloud, Castle, Lake”), “Pilʹgram” (“The
+		  Aurelian”), “Podlets” (“An Affair of Honor”), and “Tiazhelyi dym”
+		  (“Torpid Smoke”).</p>
+         <p>Miscellaneous items in the 
+		  <ref xlink:type="simple" target="writ1">Writings</ref> series include short works such as
+		  book reviews, classroom teaching material, and essays. Many of the poems and
+		  short stories in the collection are signed “V. Sirin,” a pseudonym
+		  frequently used by Nabokov in Berlin and Paris during the 1920s and 1930s. </p>
+         <p>Scattered throughout the collection are notes and drafts written on 4"
+		  x 6" cards. Files documenting the writings 
+		<title xlink:type="simple">Pale Fire,</title> 
+		          <title xlink:type="simple">Lolita: A Screenplay,</title> and “The Vane Sisters” consist
+		entirely of these cards.</p>
+         <p>The 
+		  <ref xlink:type="simple" target="misc21">Miscellany</ref> series includes a transcript of a
+		  radio interview with Nabokov. An addition to the collection contains letters
+		  from Nabokov to Princess Zinaïda Schakovskoy and Gleb Struve. 
+		  <ref xlink:type="simple" target="over">Oversize</ref> material consists of Nabokov's
+		  diploma from the University of Cambridge and passports and related material
+		  removed from the Miscellany series.</p>
+      </scopecontent>
+      <arrangement id="mferd2635e714" encodinganalog="351$a">
+         <head>Organization of the Papers</head>
+         <p>The collection is arranged in five series:</p>
+         <list type="simple">
+            <item> 
+			            <ref xlink:type="simple" target="corr1" xlink:show="replace"
+                    xlink:actuate="onRequest">Correspondence, 1923-1952 </ref> 
+            </item>
+            <item> 
+			            <ref xlink:type="simple" target="writ1" xlink:show="replace"
+                    xlink:actuate="onRequest">Writings,
+				1918-1964 </ref> 
+            </item>
+            <item> 
+			            <ref xlink:type="simple" target="misc21" xlink:show="replace"
+                    xlink:actuate="onRequest">Miscellany,
+				1919-1942 </ref> 
+            </item>
+            <item> 
+			            <ref xlink:type="simple" target="addi22" xlink:show="replace"
+                    xlink:actuate="onRequest">Addition,
+				1923-1974 </ref> 
+            </item>
+            <item> 
+			            <ref xlink:type="simple" target="over" xlink:show="replace"
+                    xlink:actuate="onRequest">Oversize,
+				1919-1922</ref> 
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm79034082" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm79034082</extref>
+      </otherfindaid>
+      <dsc id="mferd2635e745" type="combined">
+         <head>Container List</head>
+         <note>
+            <p>Available on microfilm. Shelf no. 23,205</p>
+         </note>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd2635e757" level="series">
+            <did>
+               <container type="box">1</container>
+               <container type="reel">1</container>
+               <unittitle id="corr1" encodinganalog="245$a">Correspondence, 
+				<unitdate normal="1923/1952" encodinganalog="245$f" era="ce" calendar="gregorian">1923-1952
+				  </unitdate> 
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received and sent. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent, organization, or
+				subject and chronologically therein.</p>
+            </arrangement>
+            <c02 id="mferd2635e774" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="reel">1</container>
+                  <unittitle encodinganalog="245$a">Letters received</unittitle>
+               </did>
+               <c03 id="mferd2635e782" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">A. M. Heath &amp; Co.,
+					 1935-1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e786" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Aikhenvalʹd, IU. I., 1926,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e790" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Aldanov, Mark Aleksandrovich,
+					 1934-1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e794" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Banks, Nathan, 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e798" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Baty, Gaston, 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e802" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Berberova, Nina Nikolaevna,
+					 1931-1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e806" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Berdiaev, Nikolai,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e810" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bertensson, Sergei,
+					 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e814" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bunin, Ivan Alekseevich,
+					 1938-1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e818" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chambers, D. L.,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e823" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Crémieux, Benjamin,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e827" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dartmouth College, Hanover,
+					 N.H., 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e831" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Donich, Rostislav,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e835" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">East and West Association,
+					 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e839" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fondaminskii, Ilʹia, and Ant.
+					 Fridmann [?], 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e843" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gessen, G., 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e847" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gessen, I. V., 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e851" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Goudy, Alexander Porter,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e855" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harvard University, Cambridge,
+					 Mass., 1942-1951</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e859" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hirschberg, Bernhard,
+					 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e863" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Holger Schildts
+					 Förlagsaktiebolag, 1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e868" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Iablokova [?], Tatʹiana,
+					 1938-1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e872" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Institute of International
+					 Education, New York, N.Y., 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e876" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jannelli, Altagracia de,
+					 1935-1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e880" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">John Simon Guggenheim Memorial
+					 Foundation, 1943, 1952</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e884" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kaun, Alexander,
+					 1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e888" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Khodasevich, V. F.,
+					 1937-1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e892" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kovarskii, I.,
+					 1935-1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e896" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Laval, Karin de,
+					 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e900" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress,
+					 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e904" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lukash, Ivan,
+					 1925-1926</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e908" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Maklakov, V. A.,
+					 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e913" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Malozemova, E.,
+					 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e917" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mann, Klaus, 1941</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e921" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Michener, Charles Duncan,
+					 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e925" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">New Yorker,</title> circa 1940s</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e932" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Osorgin, Mikhail,
+					 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e936" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Petropolis, publishers,
+					 1934-1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e940" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pravdin, V., 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e944" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Priel, Jarl, 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e948" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Prismanova, Anna,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e952" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rachmaninoff, Sergei,
+					 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e956" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rapchinskii, Boris,
+					 1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e961" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rosov, Samuil, 1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e965" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rostovtzeff, Michael Ivanovich,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e969" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rudnev, V. V. 
+					 <ref xlink:type="simple" target="rud1" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See same container and reel</emph>, Letters received, 
+						<title xlink:type="simple">Sovremennye zapiski</title> 
+                        </ref> 
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e982" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Russkie zapiski,</title> 1938-1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e989" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shakovskoi, Ioann, circa 1925,
+					 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e993" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Slonim, Marc, 1935</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e997" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Smeding, H. J.,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1001" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sorokin, P. A.,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1005" level="file">
+                  <did>
+                     <unittitle id="rud1" encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Sovremennye zapiski,</title> 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1012" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tolstoy, Alexandra,
+					 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1016" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ullstein GmbH, 1935</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1021" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">University of Leeds, Leeds,
+					 England, 1939 </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1025" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unkovskii, V., 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1029" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wereldbibliotheek-Vereening,
+					 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1033" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Zelenskii, Filip,
+					 1923</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1037" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Zenzinov, V.,
+					 1935-1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1041" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unidentified, 1939-1942,
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2635e1045" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Letters sent</unittitle>
+               </did>
+               <c03 id="mferd2635e1049" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fondaminskii, Ilʹia 
+					 <ref xlink:type="simple" target="fon1" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See same container and reel</emph>, Letters sent, 
+						<title xlink:type="simple">Sovremennye zapiski</title> 
+                        </ref> 
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1062" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Klement, Otto, 1935</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1066" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kortner, Fritz,
+					 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1070" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Life,</title> 1943</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1077" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Maklakov, V. A.,
+					 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1081" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Nikolajević, N.,
+					 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1085" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Novoe russkoe slovo,</title> 1941</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1092" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pertzoff, Peter, 1933-1944,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1096" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Poslednie novosti,</title> 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1103" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rudnev, V. V. 
+					 <ref xlink:type="simple" target="fon1" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See same container and reel</emph>, Letters sent, 
+						<title xlink:type="simple">Sovremennye zapiski</title> 
+                        </ref> 
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1117" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rydelius, Ellen Victoria,
+					 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1121" level="file">
+                  <did>
+                     <unittitle id="fon1" encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Sovremennye zapiski,</title>1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1128" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Vremea,</title> publishers, 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e1135" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Zenzinov, V. 
+					 <ref xlink:type="simple" target="fon1" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See same container and reel</emph>, Letters sent, 
+						<title xlink:type="simple">Sovremennye zapiski</title> 
+                        </ref> 
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd2635e1148" level="series">
+            <did>
+               <container type="box">1-21</container>
+               <container type="reel">1-13</container>
+               <unittitle id="writ1" encodinganalog="245$a">Writings, 
+				<unitdate normal="1918/1964" encodinganalog="245$f" era="ce" calendar="gregorian">1918-1964
+				  </unitdate> 
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drafts, proofs, and printed versions of biographies, book reviews,
+				essays, memoirs, novellas, novels, plays, poems, short stories, and
+				translations of works by others as well as correspondence and notes. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of writing, title, and type of
+				material.</p>
+            </arrangement>
+            <c02 id="mferd2635e1165" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="reel">1</container>
+                  <unittitle encodinganalog="245$a">Fiction</unittitle>
+               </did>
+               <c03 id="mferd2635e1173" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Novels</unittitle>
+                  </did>
+                  <c04 id="mferd2635e1177" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Bend Sinister</title> 
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd2635e1184" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Book review by A. Nazaroff,
+						  broadcast on “Voice of America” radio, transcript in Russian, 1947
+						  </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1188" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft in English,
+						  undated</unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                           <container type="box">2</container>
+                           <container type="reel">2</container>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1206" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Dar</title> ( 
+						<title xlink:type="simple">The Gift</title>)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1216" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Drafts in Russian,
+						  undated</unittitle>
+                        </did>
+                        <c06 id="mferd2635e1220" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapters 1 and 4
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(3
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1229" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Fragments</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1233" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Unpublished chapter
+							 drafts </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(2
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 id="mferd2635e1242" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Printed version in 
+						  <title xlink:type="simple">Sovremennye zapiski</title> in Russian, 1937-1938
+						  </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1254" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Kamera obskura</title> ( 
+						<title xlink:type="simple">Camera Obscura,</title>1936, and 
+						<title xlink:type="simple">Laughter in the Dark,</title> 1938), draft fragment in
+						Russian, 1931</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1267" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Korolʹ, dama, valet</title> ( 
+						<title xlink:type="simple">King, Queen, Knave</title>), draft fragment in
+						Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1277" level="file">
+                     <did>
+                        <unittitle id="lol10" encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Lolita,</title> notes in English on 4"x 6" cards,
+						1950-1955 
+						<ref xlink:type="simple" target="lol2" xlink:show="replace"
+                                xlink:actuate="onRequest">
+						                        <emph render="italic">See also Containers 10-12, Reels 8-9</emph>, 
+						  <title xlink:type="simple">Lolita: A Screenplay</title>
+                           </ref> 
+                        </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(6 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1297" level="file">
+                     <did>
+                        <container type="box">3</container>
+                        <container type="reel">3</container>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Mashenʹka</title> ( 
+						<title xlink:type="simple">Mary</title>), draft in Russian, circa 1925
+						</unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1316" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Otchaianie</title> ( 
+						<title xlink:type="simple">Despair</title>), draft in Russian, 1932</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1326" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Pale Fire,</title> draft in English on 4"x 6" cards,
+						1957-1961, undated</unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(17 folders)</extent>
+					                   </physdesc>
+                        <container type="box">4</container>
+                        <container type="reel">4</container>
+                        <physdesc> 
+                           <extent encodinganalog="300">(24 folders)</extent>
+					                   </physdesc>
+                        <container type="box">5</container>
+                        <physdesc> 
+                           <extent encodinganalog="300">(23 folders)</extent>
+					                   </physdesc>
+                        <container type="box">6</container>
+                        <container type="reel">5</container>
+                        <physdesc> 
+                           <extent encodinganalog="300">(5 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1363" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Pnin,</title> notes in English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1370" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Podvig</title> ( 
+						<title xlink:type="simple">Glory</title>), draft in Russian, 1930 </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1386" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Priglashenie na kaznʹ</title> ( 
+						<title xlink:type="simple">Invitation to a Beheading</title>)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1396" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">English edition, 1959
+						  </unittitle>
+                        </did>
+                        <c06 id="mferd2635e1400" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Draft</unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(5
+							 folders)</extent>
+						                        </physdesc>
+                              <container type="box">7</container>
+                              <container type="reel">6</container>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(1 folder)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1418" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Galley proofs
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(3
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1427" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Setting copy </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(5
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 id="mferd2635e1436" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">French edition, preface,
+						  page proofs, undated</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1440" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Russian edition, draft,
+						  undated </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1449" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">The Real Life of Sebastian Knight</title> 
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd2635e1456" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">English edition, draft,
+						  circa 1941</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1460" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">French edition, corrections
+						  to translation, undated</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1464" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Zashchita Luzhina</title> ( 
+						<title xlink:type="simple">The Defense</title>)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1474" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">English edition, draft,
+						  undated</unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                           <container type="box">8</container>
+                           <container type="reel">7</container>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1492" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Russian edition, draft
+						  fragments, undated</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e1496" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Short stories and
+					 novellas</unittitle>
+                  </did>
+                  <c04 id="mferd2635e1500" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“The Assistant Producer,”
+						1943</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1504" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft in
+						  English</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1508" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Notes in English on 4" x 6"
+						  cards</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1512" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Britva” (“The
+						Razor”), drafts in Russian, undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1521" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“The Double Monster,”
+						draft in English, 1950</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1525" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Double Talk,” draft in
+						English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1529" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Govoriat po russki”
+						(“They Speak Russian”), drafts in Russian, undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1538" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Korolek” (“The
+						Leonardo”), printed version in 
+						<title xlink:type="simple">Poslednie novosti</title> in Russian, 1933</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1545" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Lik”</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1549" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft in Russian,
+						  1938</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1553" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Printed version in 
+						  <title xlink:type="simple">Russkie zapiski</title> in Russian, 1938</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1560" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Mademoiselle O,” drafts
+						in English, undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1569" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Nabokov's Dozen</title> 
+						                     <ref xlink:type="simple" target="nab8" xlink:show="replace"
+                                xlink:actuate="onRequest">
+						                        <emph render="italic">See Container 10, Reel 8, same heading </emph> 
+                           </ref>
+						                  </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1582" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Nabor”
+						(“Recruitment”)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1586" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft in Russian,
+						  undated</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1590" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Printed version in 
+						  <title xlink:type="simple">Poslednie novosti</title> in Russian,
+						  1935</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1598" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Natasha,” draft in
+						Russian, 1927</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1602" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Obida” (“A Bad
+						Day”), draft in Russian, 1931</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1606" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Ograda” [“Muzyka”]
+						(“Music”), draft in Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1610" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Ozero, oblako, bashnia”
+						(“Cloud, Castle, Lake”)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1614" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft in Russian,
+						  1937</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1618" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Printed version in 
+						  <title xlink:type="simple">Sovremennye zapiski</title> in Russian,
+						  1937</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1625" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Translations</unittitle>
+                        </did>
+                        <c06 id="mferd2635e1629" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">English </unittitle>
+                           </did>
+                           <c07 id="mferd2635e1633" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">By Nabokov, “Song”
+								from “Cloud, Castle, Lake,” new version, draft in Nabokov's hand,
+								undated</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e1637" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">By Peter Pertzoff,
+								drafts, undated</unittitle>
+                              </did>
+                              <c08 id="mferd2635e1641" level="file">
+                                 <did>
+                                    <unittitle encodinganalog="245$a">Revised by
+								  Nabokov</unittitle>
+                                 </did>
+                              </c08>
+                              <c08 id="mferd2635e1645" level="file">
+                                 <did>
+                                    <unittitle encodinganalog="245$a">With notes in Véra
+								  Nabokov's hand</unittitle>
+                                 </did>
+                              </c08>
+                           </c07>
+                        </c06>
+                        <c06 id="mferd2635e1649" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">French (“Mirage”),
+							 draft, undated</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1653" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Passazhir” (“The
+						Passenger”), draft in Russian, 1927</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1657" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Pilʹgram” (“The
+						Aurelian”)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1661" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Drafts in Russian (working
+						  title “Palomnik”), 1930 </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1670" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Printed version in Russian
+						  with Nabokov's notes in English for English translation, undated</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1674" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Pisʹmo v Rossiiu” (“A
+						Letter That Never Reached Russia”), draft in Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1678" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">[Po utram, esli solntse
+						priglashalo menia...], draft fragment in Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1682" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Podlets” (“An Affair
+						of Honor”), draft in Russian, 1927</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1686" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Poseshchenie muzeia”
+						(“The Visit to the Museum”), printed version in 
+						<title xlink:type="simple">Sovremennye zapiski</title> in Russian,
+						1939</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1693" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Rozhdestvenskii rasskas”
+						(“A Christmas Story”), draft in Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1698" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Sluchay iz zhizni” (“A
+						Slice of Life”), draft in Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1702" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“That in Aleppo Once...,”
+						draft in English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1706" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Tiazhelyi dym”
+						(“Torpid Smoke”), printed version in 
+						<title xlink:type="simple">Poslednie novosti</title> in Russian, 1935</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1713" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“The Vane Sisters,” draft
+						in English on 4" x 6" cards, undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(4 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1722" level="file">
+                     <did>
+                        <container type="box">9</container>
+                        <unittitle encodinganalog="245$a">“Vesna v Fialʹte”
+						(“Spring in Fialta”)</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1728" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft in Russian,
+						  1936</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1732" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">English translation by
+						  Peter Pertzoff, draft revised by Nabokov in English, undated</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1736" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Zaniatoy chelovek” (“A
+						Busy Man”), drafts in Russian, undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd2635e1745" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nonfiction</unittitle>
+               </did>
+               <c03 id="mferd2635e1749" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biography</unittitle>
+                  </did>
+                  <c04 id="mferd2635e1753" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Nikolai Gogol,</title> corrections to translation,
+						French edition, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e1760" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memoir</unittitle>
+                  </did>
+                  <c04 id="mferd2635e1764" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+						                     <title xlink:type="simple">Conclusive Evidence: A Memoir</title> 
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd2635e1771" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">English edition</unittitle>
+                        </did>
+                        <c06 id="mferd2635e1775" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Foreword (not used),
+							 drafts, undated </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(2
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1784" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapter 1</unittitle>
+                           </did>
+                           <c07 id="mferd2635e1788" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Draft,
+								undated</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e1792" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Galley proof
+								corrections on 4" x 6" cards, undated</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e1796" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Notes,
+								undated</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06 id="mferd2635e1800" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapter 2, draft,
+							 1949</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1804" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapters 3, 8, 10-12,
+							 drafts, undated </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(7
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1813" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapter 15</unittitle>
+                           </did>
+                           <c07 id="mferd2635e1817" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Drafts, undated
+								</unittitle>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(4
+								folders)</extent>
+							                          </physdesc>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e1826" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Galley proof
+								corrections, undated</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06 id="mferd2635e1830" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapter 16 (not used),
+							 disguised as anonymous review of 
+							 <title xlink:type="simple">Conclusive Evidence,</title> draft,
+							 undated</unittitle>
+                           </did>
+                           <c07 id="mferd2635e1837" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">General notes, undated
+								</unittitle>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(3
+								folders)</extent>
+							                          </physdesc>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e1846" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Unidentified draft
+								fragments, undated</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                     </c05>
+                     <c05 id="mferd2635e1850" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Russian edition, 
+						  <title xlink:type="simple">Drugie berega,</title> based upon translation of 
+						  <title xlink:type="simple">Conclusive Evidence</title> into Russian by
+						  Nabokov</unittitle>
+                        </did>
+                        <c06 id="mferd2635e1860" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Foreword, draft,
+							 undated</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1864" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Chapters 1-3, 7, drafts,
+							 undated </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(4
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e1873" level="file">
+                           <did>
+                              <container type="box">10</container>
+                              <container type="reel">8</container>
+                              <unittitle encodinganalog="245$a">Chapters 10, 12, 14,
+							 drafts, undated </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(3
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd2635e1886" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous short
+				  writings</unittitle>
+               </did>
+               <c03 id="mferd2635e1890" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Book reviews by
+					 Nabokov</unittitle>
+                  </did>
+                  <c04 id="mferd2635e1894" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Belloc, Hilaire,
+						unidentified, draft in English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1898" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bryant, Arthur, 
+						<title xlink:type="simple">Pagent of England (1840-1940),</title> draft in
+						English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1905" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Cournos, John, 
+						<title xlink:type="simple">A Treasury of Classic Russian Literature,</title> and
+						Bernard Guilbert Guerney, 
+						<title xlink:type="simple">An Anthology of Russian Literature, </title>draft in
+						English, circa 1962</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1915" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Lifar, Serge, 
+						<title xlink:type="simple">Serge Diaghilev,</title> draft in English, circa
+						1940</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1922" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Masefield, John, 
+						<title xlink:type="simple">Basilissa,</title> draft in English,
+						undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1929" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Maximoff, G. P., 
+						<title xlink:type="simple">The Guillotine at Work,</title> drafts in English,
+						undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1941" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Rothenstein, John, 
+						<title xlink:type="simple">Life and Death of Conder,</title> draft in English,
+						undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1948" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Rustaveli, Shota, 
+						<title xlink:type="simple">The Knight in the Tiger's Skin,</title> draft in
+						English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1955" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Thaler, Alwin, 
+						<title xlink:type="simple">Shakespeare and Democracy,</title> and Alfred Harbage,
+						
+						<title xlink:type="simple">Shakespeare's Audience,</title> draft in English,
+						undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1965" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Williams, Frayne, 
+						<title xlink:type="simple">Mr. Shakespeare of the Globe,</title> draft in
+						English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e1973" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Wright, J. F. C., 
+						<title xlink:type="simple">Slava Bohu, The Story of the Dukhobors,</title> draft
+						in English, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e1980" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Classroom teaching
+					 material</unittitle>
+                  </did>
+                  <c04 id="mferd2635e1984" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Creative writing
+						course</unittitle>
+                     </did>
+                     <c05 id="mferd2635e1988" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Lecture notes on short
+						  stories, draft in English, undated</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e1992" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Lecture notes on style,
+						  draft in English, undated</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e1996" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Exam questions, draft in
+						English, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e2000" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Essays</unittitle>
+                  </did>
+                  <c04 id="mferd2635e2004" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Opredeleniia”
+						(“Definitions”), draft in Russian, 1940</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2008" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Vozzvanie o pomoshchi”
+						(“Call for Help”), draft in Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2012" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">“Le vrai et le
+						vraisemblable” (“Truth and Apparent Truth”), draft in French,
+						1937</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e2016" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Interview with Nabokov 
+					 <ref xlink:type="simple" target="int10" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See Container 21, Reel 13, same heading</emph> 
+                        </ref>
+					                </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2026" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letter to the editor
+					 (“Pisʹmo v redaktsiiu”), printed version in 
+					 <title xlink:type="simple">Novoe russkoe slovo</title> in Russian,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2033" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Musical performance program
+					 note, “’The Return of Pushkin,' Elegy in Three Parts, for High Voice and
+					 Orchestra by Nicholai Nabokov,” with Vladimir Nabokov's translation of
+					 Aleksandr Sergeevich Pushkin's “Vnovʹ ia posetil...,” galley proofs in
+					 English, 1964</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2037" level="file">
+                  <did>
+                     <unittitle id="nab8" encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Nabokov's Dozen</title>, bibliographic note in English,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2044" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notebook, “Stikhi i skhemy”
+					 (“Poems and Schemes”), poems, notes, and schematizations regarding chess,
+					 in Russian, 1918</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2048" level="file">
+                  <did>
+                     <unittitle id="ksm12" encodinganalog="245$a">Poetry reading,
+					 “Recital in New York (with Poems) in the Early Fifties,” introductory
+					 remarks, drafts in Russian, circa 1950s 
+					 <ref xlink:type="simple" target="poe10" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See also Container 12, Reel 9</emph>, “K kn. S. M.
+						Kachurinu” (“To Prince S. M. Kachurin”)</ref> 
+                     </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2635e2063" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Plays and film script</unittitle>
+               </did>
+               <c03 id="mferd2635e2067" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Izobretenie Valʹsa </title> ( 
+					 <title xlink:type="simple">The Waltz Invention</title>), draft in Russian,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2077" level="file">
+                  <did>
+                     <unittitle id="lol2" encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Lolita: A Screenplay</title> 
+					                   <ref xlink:type="simple" target="lol10" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See also Container 2, Reel 2</emph>, 
+						<title xlink:type="simple"> Lolita</title>
+                        </ref> 
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd2635e2092" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft in English on 4" x 6"
+						cards, undated</unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(12 folders)</extent>
+					                   </physdesc>
+                        <container type="box">11</container>
+                        <physdesc> 
+                           <extent encodinganalog="300">(12 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2108" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft fragments in English on
+						4" x 6" cards, undated</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2112" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Prologue </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(5 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2121" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Act 1 </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(6 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2130" level="file">
+                        <did>
+                           <container type="box">12</container>
+                           <container type="reel">9</container>
+                           <unittitle encodinganalog="245$a">Act 2</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2138" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Act 3</unittitle>
+                        </did>
+                        <c06 id="mferd2635e2142" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Second draft </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(5
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2151" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Unidentified draft
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(5
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e2160" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Polius</title> ( 
+					 <title xlink:type="simple">The Pole</title>), German translation ( 
+					 <title xlink:type="simple">Der Pol</title>), draft, 1923</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2173" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Sobytie</title> ( 
+					 <title xlink:type="simple">The Event</title>), French translation ( 
+					 <title xlink:type="simple">Catastrophe</title>), draft, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2186" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Tragediia Gospodina Morna”
+					 (“The Tragedy of Mr. Morn”)</unittitle>
+                  </did>
+                  <c04 id="mferd2635e2190" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Drafts in Russian, undated
+						</unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(3 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2199" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Narrative description in
+						Russian, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2203" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Plot synopsis in Russian,
+						undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd2635e2207" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Poems</unittitle>
+               </did>
+               <c03 id="mferd2635e2211" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“The Ballad of Longwood
+					 Glen,” draft in English, 1953-1957</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2215" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Berlinskaia vesna”
+					 (“Berlin Spring”), poem in two parts: for part one 
+					 <ref xlink:type="simple" target="per12"> 
+                           <emph render="italic">see Container 13,
+						Reel 9</emph>, “Perina”</ref>; for part two 
+					 <ref xlink:type="simple" target="poc12"> 
+                           <emph render="italic">see Container 13,
+						Reel 9</emph>, “Pochtovyi iashchik”</ref> 
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2231" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Bezumets” (“The
+					 Madman”), draft in Russian, circa 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2235" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“La Bonne Lorraine,” draft
+					 in Russian, circa 1924</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2239" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Chto za noch ʹ s pamiat
+					 ʹiu sluchilos ʹ?” (“What Happened Overnight to Memory?”), draft in
+					 Russian, circa 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2243" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Dandelions,” draft in
+					 English, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2247" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Dream,” draft in English,
+					 circa 1946</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2251" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Farewell Party,” draft in
+					 English, 1941</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2255" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Formula” (“The
+					 Formula”), draft in Russian, circa 1931</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2259" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Gadan ʹe” (“Fortune
+					 Telling”), draft in Russian, 1924</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2264" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Iskusstvo i groza” (“Art
+					 and Disaster”), draft in Russian, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2268" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Iz Kalmbrudovoi poemy
+					 ’Nochnoe Puteshestvie,'” draft of supposed Russian translation by Nabokov
+					 of “The Night Journey” by Vivian Calmbrood (a fictional character created
+					 by Nabokov), circa 1931</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2272" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“K dushe” 
+					 <ref xlink:type="simple" target="kdu12" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See Container 13, Reel 9</emph>, “V raiu”</ref>
+					                </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2282" level="file">
+                  <did>
+                     <unittitle id="poe10" encodinganalog="245$a">“K kn. S. M.
+					 Kachurinu” (“To Prince S. M. Kachurin”), draft of annotated English
+					 translation by Nabokov, circa 1950s 
+					 <ref xlink:type="simple" target="ksm12" xlink:show="replace"
+                             xlink:actuate="onRequest">
+						                     <emph render="italic">See also Container 10, Reel 8</emph>, Poetry reading
+						entitled “Recital in New York (with Poems) in the Early Fifties”</ref>
+					                </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2292" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“K rodine” (“To My Native
+					 Land”), draft in Russian, circa 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2296" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“K Rossii” (“To
+					 Russia”), photocopies of drafts in Russian, circa 1928 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2305" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Kakie bol ʹshiia shliapy”
+					 (“What big hats”), photocopy of draft in Russian, circa 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2309" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Kakim by polotnom” (“No
+					 Matter How”), drafts in Russian, circa 1944 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2318" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Lastochka” (“The
+					 Swallow”), from the novel 
+					 <title xlink:type="simple">Dar</title>, drafts in Russian, 1936, undated
+					 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2330" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“A Literary Dinner”
+					 (working title “Diner Littéraire”), draft in English, 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2334" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“The Monkey”</unittitle>
+                  </did>
+                  <c04 id="mferd2635e2338" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Biographical note on V. F.
+						Khodasevich, photocopies of drafts in English, circa 1941 </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2347" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft of translation into
+						English by Nabokov of “Obez ʹiana” by V. F. Khodasevich, circa
+						1941</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e2352" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Mr. N. on Russian Poetry,”
+					 drafts in English, 1944 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2361" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“My s toboiu tak verili v
+					 sviaz ʹ bytiia” (“We so firmly believed in the linkage of life”), draft
+					 in Russian, circa 1928</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2365" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Na zakate” (“At
+					 Sunset”), drafts in Russian, circa 1935, circa 1941 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(3 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2374" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">“Nepravil ʹnye iamby”
+					 (“Irregular Iambics”), draft in Russian, in part photocopies, 1952, undated
+					 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2385" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Nerodivshemusia
+					 chitateliu” (“To an Unborn Reader”), draft in Russian, circa
+					 1930</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2389" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Oblaka” (“Clouds”),
+					 draft in Russian, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2393" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Obrashchenie” (“The
+					 Appeal”; working title “K otchizne”), drafts in Russian, 1939
+					 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2402" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Ode to a Model,” draft in
+					 English, 1955</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2406" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Okno” (“The Window”),
+					 draft in Russian, circa 1930</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2410" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Osa” (“The Wasp”)
+					 (working title “Muka”), draft in Russian, 1928</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2414" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Ostrova” (“The
+					 Islands”), draft in Russian, circa 1928</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2419" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Ot schastiia vliublennomu ne
+					 spitsia” (“For Happiness the Lover Cannot Sleep”), drafts in Russian,
+					 1928 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2428" level="file">
+                  <did>
+                     <unittitle id="per12" encodinganalog="245$a">“Perina”
+					 (“Feather Bed”), also known as part one of “Berlinskaia vesna”
+					 (“Berlin Spring”), draft in Russian, undated </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2432" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Pervaia liubov ʹ”
+					 (“First Love”), draft in Russian, circa 1930</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2436" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“P ʹianyi korabl ʹ”
+					 (“The Drunken Ship”), draft of translation into Russian by Nabokov of “Le
+					 bateau ivre” by Arthur Rimbaud, circa 1928 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2445" level="file">
+                  <did>
+                     <unittitle id="poc12" encodinganalog="245$a">“Pochtovyi
+					 iashchik” (“The Mailbox”), also known as part two of “Berlinskaia
+					 vesna” (“Berlin Spring”), draft in Russian, 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2449" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“The Poem,” draft in
+					 English, circa 1944</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2453" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Poety” (“The Poets”),
+					 draft in Russian, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2457" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Predstavlenie” (“The
+					 Presentation”), drafts in Russian, 1930, undated </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2466" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Probuzhdenie” (“The
+					 Awakening”), draft in Russian, circa 1931</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2470" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Prokhozhii s elkoi” (“A
+					 Passer-by with a Christmas Tree”), draft in Russian, 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2474" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Provans” (“Provence”),
+					 poem in two parts, part one (first line “Sloniaius ʹ pereulkami bez
+					 tseli”), draft in Russian, 1923</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2479" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Pustiak – nazvan ʹe
+					 machty, plan – i sledom” (“A trifle, the name of a mast, a plan”),
+					 draft in Russian, 1926</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2483" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Rain,” draft in English,
+					 1955</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2487" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Rasstrel” (“The
+					 Execution”), draft in Russian, circa 1927</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2491" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“The Room,” draft in
+					 English, circa 1950</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2495" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Rusalka – Zakliuchitel
+					 ʹnaia stsena k pushkinskoi ’Rusalke'” (“The Water Nymph – A Concluding
+					 Scene to Pushkin's ’Rusalka'”), draft in Russian, circa 1942 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2504" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Sam treugol ʹnyi dvukrylyi,
+					 beznogii” (“He was triangular, two-winged, and legless”), draft in
+					 Russian, 1932</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2508" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Shakhmatnyi kon ʹ”
+					 (“The Chess Knight”), drafts in Russian, 1927, 1930 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2517" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Siren ʹ” (“Lilac”),
+					 draft in Russian, 1928</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2521" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Smert ʹ” (“Death”),
+					 draft in Russian, 1924</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2525" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Sneg” (“Snow”), drafts
+					 in Russian, circa 1930 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2534" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Snimok” (“The
+					 Snapshot”), draft in Russian, 1927</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2539" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Snoviden ʹe” (“A Vision
+					 in a Dream”), drafts in Russian, 1927 </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(2 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2548" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Son” (“The Dream”),
+					 photocopy of draft in Russian, 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2552" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Speaking of Bugs,” draft
+					 in English, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2556" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Stansy” (“Stanzas”),
+					 draft in Russian, 1924</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2560" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Stansy o kone” (“Stanzas
+					 on a Horse”) (working title “Stansy o loshadi”), draft in Russian, circa
+					 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2564" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Tol ʹko pomniu kholodnost
+					 ʹ vashu” (“I Only Remember Your Coldness”), draft in Russian,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2568" level="file">
+                  <did>
+                     <unittitle id="kdu12" encodinganalog="245$a">“V raiu” (“In
+					 Paradise”), draft in Russian, 1928</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2572" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Vesna” (“Spring”),
+					 draft in Russian, 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2576" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Voluptates Tactionum,”
+					 draft in English, circa 1951</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2580" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Vozdushnyi ostrov”
+					 (“Aerial Island”), draft in Russian, circa 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e2584" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“A War Poem,” draft in
+					 English, 1942</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2635e2588" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Translations</unittitle>
+               </did>
+               <c03 id="mferd2635e2592" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">Eugene Onegin,</title> translation of novel in verse by
+					 Aleksandr Sergeevich Pushkin</unittitle>
+                  </did>
+                  <c04 id="mferd2635e2599" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence with
+						publisher</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2603" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Correspondence, 1959-1963,
+						  undated </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2612" level="file">
+                        <did>
+                           <unittitle id="enc18" encodinganalog="245$a">Enclosures
+						  separated from original documents</unittitle>
+                        </did>
+                        <c06 id="mferd2635e2616" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Corrections,
+							 undated</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2620" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Draft material,
+							 1959-1963, undated 
+							 <ref xlink:type="simple" target="dra13" xlink:show="replace"
+                                      xlink:actuate="onRequest">
+								                            <emph render="italic">See also Container 18, Reel 12</emph>, Vol. III,
+								commentaries</ref> 
+                              </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(2
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2635" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Miscellaneous,
+							 undated</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2639" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Queries</unittitle>
+                           </did>
+                           <c07 id="mferd2635e2643" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Appendices,
+								undated</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2647" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Commentary, 1959-1961,
+								undated</unittitle>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(1
+								folder)</extent>
+							                          </physdesc>
+                                 <container type="box">14</container>
+                                 <container type="reel">10</container>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(2
+								folders)</extent>
+							                          </physdesc>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2665" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Discrepancies,
+								undated</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2669" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Front matter,
+								1962</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2673" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Russian
+								transliterations, undated</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2677" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Text translations,
+								undated</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e2681" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft A</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2685" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Vol. I</unittitle>
+                        </did>
+                        <c06 id="mferd2635e2689" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Foreword,
+							 1958</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2693" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Method of transliteration
+							 and calendar, 1958</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2697" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Translation, 1960
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(10
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2706" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Translator's
+							 introduction, 1958 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(3
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 id="mferd2635e2715" level="file">
+                        <did>
+                           <container type="box">15</container>
+                           <unittitle encodinganalog="245$a">Vol. II, commentaries,
+						  1958</unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(13 folders)</extent>
+						                     </physdesc>
+                           <container type="box">16</container>
+                           <container type="reel">11</container>
+                           <physdesc> 
+                              <extent encodinganalog="300">(7 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2735" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Vol. III</unittitle>
+                        </did>
+                        <c06 id="mferd2635e2739" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Commentaries, 1958
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(6
+							 folders)</extent>
+						                        </physdesc>
+                              <container type="box">17</container>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(8
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2755" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Appendices, 1958, undated
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(5
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e2764" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft B, undated</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2768" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Vol. I</unittitle>
+                        </did>
+                        <c06 id="mferd2635e2772" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Foreword</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2776" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Table of contents, list
+							 of illustrations, and translator's mottoes</unittitle>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2780" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Translator's introduction
+							 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(4
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 id="mferd2635e2789" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Vol. II, commentaries
+						  </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(1 folder)</extent>
+						                     </physdesc>
+                           <container type="box">18</container>
+                           <container type="reel">12</container>
+                           <physdesc> 
+                              <extent encodinganalog="300">(8 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2807" level="file">
+                        <did>
+                           <unittitle id="dra13" encodinganalog="245$a">Vol. III,
+						  commentaries 
+						  <ref xlink:type="simple" target="enc18" xlink:show="replace"
+                                   xlink:actuate="onRequest">
+							                          <emph render="italic">See also Container 13, Reel 9</emph>, Enclosures, Draft
+							 material</ref> 
+                           </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(7 folders)</extent>
+						                     </physdesc>
+                           <container type="box">19</container>
+                           <physdesc> 
+                              <extent encodinganalog="300">(4 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e2829" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft C, vol. I, translator's
+						introduction, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2833" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft D, vol. I, translation
+						on 4" x 6" cards, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2837" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft E, vol. I, translation,
+						undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2841" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Draft F, vol. III, appendix
+						I, undated </unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(2 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2850" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Galley proofs,
+						corrected</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2854" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">First proof</unittitle>
+                        </did>
+                        <c06 id="mferd2635e2858" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Vol. I, 1961</unittitle>
+                           </did>
+                           <c07 id="mferd2635e2862" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Foreword</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2866" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Translator's
+								introduction.</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06 id="mferd2635e2870" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Vol. II, commentaries,
+							 1961 </unittitle>
+                              <physdesc> 
+                                 <extent encodinganalog="300">(7
+							 folders)</extent>
+						                        </physdesc>
+                           </did>
+                        </c06>
+                        <c06 id="mferd2635e2879" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Vol. III,
+							 1961</unittitle>
+                           </did>
+                           <c07 id="mferd2635e2883" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Commentaries
+								</unittitle>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(2
+								folders)</extent>
+							                          </physdesc>
+                                 <container type="box">20</container>
+                                 <container type="reel">13</container>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(4
+								folders)</extent>
+							                          </physdesc>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2901" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Appendix I </unittitle>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(2
+								folders)</extent>
+							                          </physdesc>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06 id="mferd2635e2910" level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Vol. IV</unittitle>
+                           </did>
+                           <c07 id="mferd2635e2914" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Correspondence with
+								publisher, 1964</unittitle>
+                              </did>
+                           </c07>
+                           <c07 id="mferd2635e2918" level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">Index, 1963
+								</unittitle>
+                                 <physdesc> 
+                                    <extent encodinganalog="300">(2
+								folders)</extent>
+							                          </physdesc>
+                              </did>
+                           </c07>
+                        </c06>
+                     </c05>
+                     <c05 id="mferd2635e2927" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Second proof, vol. III,
+						  appendix II, 1963</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e2931" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Page proofs, 1960
+						</unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(3 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2635e2940" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+					                   <title xlink:type="simple">The Song of Igor's Campaign,</title> translation of
+					 anonymous epic 
+					 <title xlink:type="simple">Slovo o polku Igoreve</title> 
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd2635e2950" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Drafts</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2954" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Corrections by editor in
+						  English, 1960 </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2958" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Typescript in English,
+						  undated </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e2967" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Galley proofs</unittitle>
+                     </did>
+                     <c05 id="mferd2635e2971" level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Corrections by author in
+						  English on 4" x 6" cards, circa 1960</unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd2635e2975" level="file">
+                        <did>
+                           <container type="box">21</container>
+                           <unittitle encodinganalog="245$a">Text in English, 1960
+						  </unittitle>
+                           <physdesc> 
+                              <extent encodinganalog="300">(2 folders)</extent>
+						                     </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd2635e2986" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Illustrations, captions in
+						English, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2635e2990" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Notes in English, undated
+						</unittitle>
+                        <physdesc> 
+                           <extent encodinganalog="300">(3 folders)</extent>
+					                   </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd2635e2999" level="series">
+            <did>
+               <container type="box">21</container>
+               <container type="reel">13</container>
+               <unittitle id="misc21" encodinganalog="245$a">Miscellany, 
+				<unitdate normal="1919/1942" encodinganalog="245$f" era="ce" calendar="gregorian">1919-1942
+				  </unitdate> 
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>A diploma, drawing, interview, and passports and related material.
+				</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of organization or type of
+				material and chronologically therein.</p>
+            </arrangement>
+            <c02 id="mferd2635e3016" level="file">
+               <did>
+                  <container type="box">21</container>
+                  <container type="reel">13</container>
+                  <unittitle encodinganalog="245$a">Drawing by Nabokov,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2635e3024" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ephemera, 1934,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2635e3028" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Financial material, 1935-1939,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2635e3032" level="file">
+               <did>
+                  <unittitle id="int10" encodinganalog="245$a">Interview with Nabokov
+				  by Nathalie Shahovskoy, broadcast on “Voice of America” radio, discussing
+				  Nabokov's writing style, transcript in Russian, 1958</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2635e3036" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Passports and related material,
+				  1919-1942 
+				  <ref xlink:type="simple" target="over21" xlink:show="replace"
+                          xlink:actuate="onRequest">
+					                   <emph render="italic">See also Oversize</emph> 
+                     </ref> 
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2635e3046" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">University of Cambridge,
+				  Cambridge, England, diploma, 1922 
+				  <ref xlink:type="simple" target="uni21" xlink:show="replace"
+                          xlink:actuate="onRequest">
+					                   <emph render="italic">See Oversize</emph> 
+                     </ref> 
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2635e3056" level="series">
+            <did>
+               <container type="box">22</container>
+               <container type="reel">13</container>
+               <unittitle id="addi22" encodinganalog="245$a">Addition, 
+				<unitdate normal="1923/1974" encodinganalog="245$f" era="ce" calendar="gregorian">1923-1974
+				  </unitdate> 
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received and sent. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent and
+				chronologically therein.</p>
+            </arrangement>
+            <c02 id="mferd2635e3073" level="file">
+               <did>
+                  <container type="box">22</container>
+                  <container type="reel">13</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 id="mferd2635e3081" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schakovskoy, Zinaïda,
+					 Princesse, with index, 1923, 1932-1939,1954-1959, 1971, undated </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(3 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e3090" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Struve, Gleb, 1925-1939,
+					 1946-1974, undated </unittitle>
+                     <physdesc> 
+                        <extent encodinganalog="300">(5 folders)</extent>
+				                 </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e3099" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wilson, Jay, 1972</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd2635e3103" level="series">
+            <did>
+               <container type="box">OV 1</container>
+               <container type="reel">13</container>
+               <unittitle id="over" encodinganalog="245$a">Oversize, 
+				<unitdate normal="1919/1922" encodinganalog="245$f" era="ce" calendar="gregorian">1919-1922</unitdate> 
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>A diploma, passports, and related material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the series and container from
+				which the material was removed.</p>
+            </arrangement>
+            <c02 id="mferd2635e3120" level="file">
+               <did>
+                  <container type="box">OV 1</container>
+                  <container type="reel">13</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+               <c03 id="mferd2635e3128" level="file">
+                  <did>
+                     <unittitle id="over21" encodinganalog="245$a">Passports and
+					 related material, 1919-1921 (Container 21, Reel 13)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2635e3132" level="file">
+                  <did>
+                     <unittitle id="uni21" encodinganalog="245$a">University of
+					 Cambridge, Cambridge, England, diploma, 1922 (Container 21, Reel
+					 13)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
