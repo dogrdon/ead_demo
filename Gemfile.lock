@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/sparklemotion/nokogiri.git
+  revision: f9e5fb842824c3c9c4fae2f4315c08f4e6d9e84f
+  branch: libxml2-2.9.1
+  specs:
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -169,6 +175,7 @@ DEPENDENCIES
   devise
   devise-guests (~> 0.3)
   jquery-rails
+  nokogiri!
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
   solr_ead
