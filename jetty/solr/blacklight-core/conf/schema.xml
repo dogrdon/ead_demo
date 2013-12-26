@@ -45,7 +45,7 @@
     that avoids logging every request
 -->
 
-<schema name="Blacklight Demo Index" version="1.5">
+<schema name="Blacklight-EAD Index" version="1.5">
   <!-- attribute "name" is the name of this schema and is only used for display purposes.
        Applications should change this to reflect the nature of the search collection.
        version="1.4" is Solr's version number for the schema syntax and semantics.  It should
@@ -593,7 +593,20 @@
         alternately, change the type="ignored" to some other type e.g. "text" if you want 
         unknown fields indexed and/or stored by default --> 
    <!--dynamicField name="*" type="ignored" multiValued="true" /-->
-   
+
+   <!-- EAD-MOD 26DEC2013 // add dynamic fields from solr_ead documentation -->
+   <dynamicField name="*_teim"  type="text_en"   stored="false" indexed="true"  multiValued="true"  />
+   <dynamicField name="*_si"    type="string"    stored="false" indexed="true"  multiValued="false" />
+   <dynamicField name="*_sim"   type="string"    stored="false" indexed="true"  multiValued="true"  />
+   <dynamicField name="*_ssm"   type="string"    stored="true"  indexed="false" multiValued="true"  />
+   <dynamicField name="*_ssi"   type="string"    stored="true"  indexed="true"  multiValued="false" />
+   <dynamicField name="*_ssim"  type="string"    stored="true"  indexed="true"  multiValued="true"  />
+   <dynamicField name="*_dtsi"  type="date"      stored="true"  indexed="true"  multiValued="false" />
+   <dynamicField name="*_dtsim" type="date"      stored="true"  indexed="true"  multiValued="true"  />
+   <dynamicField name="*_bsi"   type="boolean"   stored="true"  indexed="true"  multiValued="false" />
+   <dynamicField name="*_isim"  type="int"       stored="true"  indexed="true"  multiValued="true"  />
+   <dynamicField name="*_ii"    type="int"       stored="false" indexed="true"  multiValued="false" />
+
  </fields>
 
  <!-- Field to use to determine and enforce document uniqueness. 
