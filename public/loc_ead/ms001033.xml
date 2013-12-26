@@ -17,7 +17,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms001033
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.mss/eadmss.ms001033"
-             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms001033</eadid>
+             encodinganalog="856$u">ms001033</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Vincent Price Papers</titleproper>

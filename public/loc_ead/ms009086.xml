@@ -17,7 +17,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms009086
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.mss/eadmss.ms009086"
-             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms009086</eadid>
+             encodinganalog="856$u">ms009086</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Vladimir Vladimirovich Nabokov

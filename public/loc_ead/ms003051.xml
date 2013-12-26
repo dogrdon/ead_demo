@@ -17,7 +17,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms003051
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.mss/eadmss.ms003051"
-             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms003051</eadid>
+             encodinganalog="856$u">ms003051</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Ira Eaker Papers</titleproper>

@@ -17,7 +17,7 @@ URL: http://hdl.loc.gov/loc.mbrsmi/eadmbrsmi.mi007001
               dateencoding="iso8601"
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
-             identifier="hdl:loc.mbrsmi/eadmbrsmi.mi007001">http://hdl.loc.gov/loc.mbrsmi/eadmbrsmi.mi007001</eadid>
+             identifier="hdl:loc.mbrsmi/eadmbrsmi.mi007001">mi007001</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">Fox Movietone Newsreel Collection - World

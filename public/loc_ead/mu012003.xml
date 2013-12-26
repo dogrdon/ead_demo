@@ -17,8 +17,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
               id="mferd221e3">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.music/eadmus.mu012003"
-             encodinganalog="856$u">
-		http://hdl.loc.gov/loc.music/eadmus.mu012003</eadid>
+             encodinganalog="856$u">mu012003</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">George Crumb Papers</titleproper>

@@ -16,7 +16,7 @@ URL: http://hdl.loc.gov/loc.rbc/eadrbc.rb999001
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.rbc/eadrbc.rb999001"
-             encodinganalog="856$g">http://hdl.loc.gov/loc.rbc/eadrbc.rb999001</eadid>
+             encodinganalog="856$g">rb999001</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">King Lear Archive</titleproper>

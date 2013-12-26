@@ -16,8 +16,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.music/eadmus.mu010030"
-             encodinganalog="856$u">
-		http://hdl.loc.gov/loc.music/eadmus.mu010030</eadid>
+             encodinganalog="856$u">mu010030</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Billy May Arrangements

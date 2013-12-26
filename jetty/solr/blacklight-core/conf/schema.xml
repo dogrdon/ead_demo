@@ -672,7 +672,9 @@
    <copyField source="subject_t" dest="opensearch_display"/>
    <copyField source="subject_addl_t" dest="opensearch_display"/>  
 
-
+  <!-- EAD_MOD 26DEC2013 copy title to text and opensearch -->
+   <copyField source="title_teim" dest="opensearch_display"/>
+   <copyField source="title_teim" dest="text"/>
    <!-- Above, multiple source fields are copied to the [text] field. 
 	  Another way to map multiple source fields to the same 
 	  destination field is to use the dynamic field syntax. 

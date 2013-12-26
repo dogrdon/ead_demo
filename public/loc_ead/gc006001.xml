@@ -17,7 +17,7 @@ URL: http://hdl.loc.gov/loc.gdc/eadgdc.gc006001
               id="mferd1e3">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.gdc/eadgdc.gc006001"
-             encodinganalog="856$u">http://hdl.loc.gov/loc.gdc/eadgdc.gc006001</eadid>
+             encodinganalog="856$u">gc006001</eadid>
       <filedesc>
          <titlestmt>
             <titleproper encodinganalog="245$a">L’Aerophile Collection</titleproper>

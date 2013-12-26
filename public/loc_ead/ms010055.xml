@@ -17,8 +17,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms010055
               langencoding="iso639-2b">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.mss/eadmss.ms010055"
-             encodinganalog="856$u">
-		http://hdl.loc.gov/loc.mss/eadmss.ms010055</eadid>
+             encodinganalog="856$u">ms010055</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Sylvanus Cadwallader Papers</titleproper>
