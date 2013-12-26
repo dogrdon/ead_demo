@@ -6,4 +6,3 @@ require File.expand_path('../config/application', __FILE__)
 
 EadDemo::Application.load_tasks
 
-require 'solr_ead/tasks'
