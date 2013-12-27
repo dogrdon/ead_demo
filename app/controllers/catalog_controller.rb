@@ -57,7 +57,14 @@ class CatalogController < ApplicationController
     config.add_facet_field 'language_facet', :label => 'Language', :limit => true 
     config.add_facet_field 'lc_1letter_facet', :label => 'Call Number' 
     config.add_facet_field 'subject_geo_facet', :label => 'Region' 
-    config.add_facet_field 'subject_era_facet', :label => 'Era'  
+    config.add_facet_field 'subject_era_facet', :label => 'Era' 
+    
+    # EAD MOD 27DEC2013 add facet fields 
+    config.add_facet_field 'scopecontent_teim', :label => 'Scope:'
+    config.add_facet_field 'language_ssm', :label => 'Language:'
+    config.add_facet_field 'collection_sim', :label => 'Collection:'
+    config.add_facet_field 'persname_sim', :label => 'Person:'
+    config.add_facet_field 'subject_sim', :label => 'Subject:'
 
     config.add_facet_field 'example_pivot_field', :label => 'Pivot Field', :pivot => ['format', 'language_facet']
 
@@ -84,6 +91,14 @@ class CatalogController < ApplicationController
     config.add_index_field 'published_display', :label => 'Published:'
     config.add_index_field 'published_vern_display', :label => 'Published:'
     config.add_index_field 'lc_callnum_display', :label => 'Call number:'
+    
+    # EAD MOD 27DEC2013 add index fields
+    config.add_index_field 'title_teim', :label => 'Title:'
+    config.add_index_field 'persname_sim', :label => 'Person:'
+    config.add_index_field 'subject_sim', :label => 'Subject:'
+    
+    
+  
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display 
@@ -102,6 +117,19 @@ class CatalogController < ApplicationController
     config.add_show_field 'lc_callnum_display', :label => 'Call number:'
     config.add_show_field 'isbn_t', :label => 'ISBN:'
 
+    # EAD MOD 27DEC2013 add show fields
+    config.add_show_field 'title_teim', :label => 'Title:'
+    config.add_show_field 'bioghist_teim', :label => 'Bio:'
+    config.add_show_field 'bibliography_teim', :label => 'Bibliography:'
+    config.add_show_field 'abstract_teim', :label => 'Abstract:'
+    config.add_show_field 'persname_sim', :label => 'Person:'
+    config.add_show_field 'subject_sim', :label => 'Subject:'
+    
+    #EAD MOD TEMP???
+    config.add_show_field 'arrangement_heading_ssm', :label => 'Arrangement Heading:'
+    config.add_show_field 'arrangement_teim', :label => 'Arrangement:'
+    config.add_show_field 'accessrestrict_teim', :label => 'Access Restrictions:'
+    
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields
     #
