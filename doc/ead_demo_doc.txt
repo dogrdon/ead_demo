@@ -1,7 +1,7 @@
 I have EADs and I want to index, solr ead quickstart:
 
 1) get blackllight set up
-2) test if everything works
+2) test if everything works* 
 3) add solr_ead
 4) add dynamic fields to your solr schema
 5) move solr_ead.rake file locally if you are having the error "don't know how to build..."
@@ -9,3 +9,7 @@ I have EADs and I want to index, solr ead quickstart:
 7) check in browser...it will sort of work, but we need to make sure the solr config and the blacklight config are working properly:
 	a) index seems to be off
 	b) display of records available seems to be off
+	
+	
+	
+*if complains about nokogiri being 10 but expecting 11, run gem pristine nokogiri

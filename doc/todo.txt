@@ -1,0 +1,4 @@
+TODO
+
+_ Change index/search results titles (still IDs)
+_ Add URLs to index by compiling the URL base and the eadid value

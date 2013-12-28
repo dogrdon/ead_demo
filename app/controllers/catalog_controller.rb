@@ -26,10 +26,11 @@ class CatalogController < ApplicationController
     # solr field configuration for search results/index views
     config.index.show_link = 'title_display'
     config.index.record_display_type = 'format'
+    config.index.record_display_type = 'subject_sim'
 
     # solr field configuration for document/show views
-    config.show.html_title = 'title_display'
-    config.show.heading = 'title_display'
+    config.show.html_title = 'title_ssm'
+    config.show.heading = 'title_ssm'
     config.show.display_type = 'format'
 
     # solr fields that will be treated as facets by the blacklight application
@@ -83,7 +84,7 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display 
-    config.add_index_field 'title_display', :label => 'Title:' 
+    #config.add_index_field 'title_display', :label => 'Title:' 
     config.add_index_field 'title_vern_display', :label => 'Title:' 
     config.add_index_field 'author_display', :label => 'Author:' 
     config.add_index_field 'author_vern_display', :label => 'Author:' 
@@ -94,7 +95,7 @@ class CatalogController < ApplicationController
     config.add_index_field 'lc_callnum_display', :label => 'Call number:'
     
     # EAD MOD 27DEC2013 add index fields
-    config.add_index_field 'title_teim', :label => 'Title:'
+    config.add_index_field 'title_ssm', :label => 'Title:'
     config.add_index_field 'persname_sim', :label => 'Person:'
     config.add_index_field 'subject_sim', :label => 'Subject:'
     
