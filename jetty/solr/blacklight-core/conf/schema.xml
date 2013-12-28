@@ -595,17 +595,17 @@
    <!--dynamicField name="*" type="ignored" multiValued="true" /-->
 
    <!-- EAD-MOD 26DEC2013 // add dynamic fields from solr_ead documentation -->
-   <dynamicField name="*_teim"  type="text_en"   stored="false" indexed="true"  multiValued="true"  />
-   <dynamicField name="*_si"    type="string"    stored="false" indexed="true"  multiValued="false" />
-   <dynamicField name="*_sim"   type="string"    stored="false" indexed="true"  multiValued="true"  />
-   <dynamicField name="*_ssm"   type="string"    stored="true"  indexed="false" multiValued="true"  />
+   <dynamicField name="*_teim"  type="text_en"   stored="true" indexed="true"  multiValued="true"  />
+   <dynamicField name="*_si"    type="string"    stored="true" indexed="true"  multiValued="false" />
+   <dynamicField name="*_sim"   type="string"    stored="true" indexed="true"  multiValued="true"  />
+   <dynamicField name="*_ssm"   type="string"    stored="true"  indexed="true" multiValued="true"  />
    <dynamicField name="*_ssi"   type="string"    stored="true"  indexed="true"  multiValued="false" />
    <dynamicField name="*_ssim"  type="string"    stored="true"  indexed="true"  multiValued="true"  />
    <dynamicField name="*_dtsi"  type="date"      stored="true"  indexed="true"  multiValued="false" />
    <dynamicField name="*_dtsim" type="date"      stored="true"  indexed="true"  multiValued="true"  />
    <dynamicField name="*_bsi"   type="boolean"   stored="true"  indexed="true"  multiValued="false" />
    <dynamicField name="*_isim"  type="int"       stored="true"  indexed="true"  multiValued="true"  />
-   <dynamicField name="*_ii"    type="int"       stored="false" indexed="true"  multiValued="false" />
+   <dynamicField name="*_ii"    type="int"       stored="true" indexed="true"  multiValued="false" />
 
  </fields>
 
@@ -674,6 +674,7 @@
 
   <!-- EAD_MOD 26DEC2013 copy title to text and opensearch -->
    <copyField source="title_teim" dest="opensearch_display"/>
+   <copyField source="title_teim" dest="title_display"/> <!-- So titles from EADs fit into original blacklight title field -->
    <copyField source="bioghist_teim" dest="opensearch_display"/>
    <copyField source="bibliography_teim" dest="opensearch_display"/>
    <copyField source="abstract_teim" dest="opensearch_display"/>

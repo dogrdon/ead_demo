@@ -9,7 +9,7 @@ class CatalogController < ApplicationController
     ## Default parameters to send to solr for all search-like requests. See also SolrHelper#solr_search_params
     config.default_solr_params = { 
       :qt => 'search',
-      :rows => 10 
+      :rows => 40 
     }
 
     ## Default parameters to send on single-document requests to Solr. These settings are the Blackligt defaults (see SolrHelper#solr_doc_params) or 
@@ -60,11 +60,12 @@ class CatalogController < ApplicationController
     config.add_facet_field 'subject_era_facet', :label => 'Era' 
     
     # EAD MOD 27DEC2013 add facet fields 
-    config.add_facet_field 'scopecontent_teim', :label => 'Scope:'
-    config.add_facet_field 'language_ssm', :label => 'Language:'
-    config.add_facet_field 'collection_sim', :label => 'Collection:'
-    config.add_facet_field 'persname_sim', :label => 'Person:'
+    #config.add_facet_field 'scopecontent_teim', :label => 'Scope:'
+    #config.add_facet_field 'language_ssm', :label => 'Language:'
+    #config.add_facet_field 'collection_sim', :label => 'Collection:'
+    #config.add_facet_field 'persname_sim', :label => 'Person:'
     config.add_facet_field 'subject_sim', :label => 'Subject:'
+    config.add_facet_field 'genreform_sim', :label => 'Genre:'
 
     config.add_facet_field 'example_pivot_field', :label => 'Pivot Field', :pivot => ['format', 'language_facet']
 
@@ -126,9 +127,9 @@ class CatalogController < ApplicationController
     config.add_show_field 'subject_sim', :label => 'Subject:'
     
     #EAD MOD TEMP???
-    config.add_show_field 'arrangement_heading_ssm', :label => 'Arrangement Heading:'
-    config.add_show_field 'arrangement_teim', :label => 'Arrangement:'
-    config.add_show_field 'accessrestrict_teim', :label => 'Access Restrictions:'
+    #config.add_show_field 'arrangement_heading_ssm', :label => 'Arrangement Heading:'
+    #config.add_show_field 'arrangement_teim', :label => 'Arrangement:'
+    #config.add_show_field 'accessrestrict_teim', :label => 'Access Restrictions:'
     
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields
