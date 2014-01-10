@@ -49,3 +49,6 @@ gem 'solr_ead'
 
 #having a problem with nokogiri in indexing ead, adding this branch referencing http://stackoverflow.com/questions/18818926/reason-incompatible-library-version-nokogiri-bundle-requires-version-11-0-0-or:
 #gem "nokogiri", github: "sparklemotion/nokogiri", branch: "libxml2-2.9.1"
+gem 'therubyracer'
+
+gem "unicode", :platforms => [:mri_18, :mri_19]
