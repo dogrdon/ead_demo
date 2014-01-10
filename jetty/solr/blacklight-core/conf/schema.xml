@@ -674,7 +674,6 @@
 
   <!-- EAD_MOD 26DEC2013 copy title to text and opensearch -->
    <copyField source="title_teim" dest="opensearch_display"/>
-   <copyField source="title_teim" dest="title_display"/> <!-- So titles from EADs fit into original blacklight title field -->
    <copyField source="title_ssm" dest="title_display"/> <!-- So titles from EADs fit into original blacklight title field -->
    <copyField source="bioghist_teim" dest="opensearch_display"/>
    <copyField source="bibliography_teim" dest="opensearch_display"/>
