@@ -104,7 +104,7 @@ class CatalogController < ApplicationController
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display 
-    config.add_show_field 'title_display', :label => 'Title:' 
+    #config.add_show_field 'title_display', :label => 'Title:' #too many titles 
     config.add_show_field 'title_vern_display', :label => 'Title:' 
     config.add_show_field 'subtitle_display', :label => 'Subtitle:' 
     config.add_show_field 'subtitle_vern_display', :label => 'Subtitle:' 
@@ -120,7 +120,7 @@ class CatalogController < ApplicationController
     config.add_show_field 'isbn_t', :label => 'ISBN:'
 
     # EAD MOD 27DEC2013 add show fields
-    config.add_show_field 'title_teim', :label => 'Title:'
+    #config.add_show_field 'title_teim', :label => 'Title:'
     config.add_show_field 'bioghist_teim', :label => 'Bio:'
     config.add_show_field 'bibliography_teim', :label => 'Bibliography:'
     config.add_show_field 'abstract_teim', :label => 'Abstract:'
